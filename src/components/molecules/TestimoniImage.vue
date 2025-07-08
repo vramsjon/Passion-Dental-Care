@@ -1,30 +1,34 @@
 <template>
-  <div class="flex flex-col justify-center items-center space-y-10">
+  <div class="flex flex-col justify-center items-center space-y-10  lg:pl-25">
     <!-- Gambar 1 -->
-    <div class="w-[80%]">
+    <div class="w-[80%] lg:flex lg:justify-center lg:items-center">
       <Image
         v-if="isLargeScreen"
         class="w-full h-auto object-contain rounded-3xl"
         src="/src/assets/images/testi1.png"
+        link="https://www.youtube.com/shorts/PkXM-9HEJAw"
       />
       <Image
         v-else
         class="w-full h-auto object-contain rounded-3xl"
         src="/src/assets/images/testi11.png"
+        link="https://www.youtube.com/shorts/PkXM-9HEJAw"
       />
     </div>
 
     <!-- Gambar 2 -->
-    <div class="w-[80%]">
+    <div class="w-[80%] rounded-3xl">
       <Image
         v-if="isLargeScreen"
         class="w-full h-auto object-contain rounded-3xl"
         src="/src/assets/images/testi2.png"
+        link="https://www.youtube.com/shorts/CoW0nPICLKg"
       />
       <Image
         v-else
         class="w-full h-auto object-contain rounded-3xl"
         src="/src/assets/images/testi22.png"
+        link="https://www.youtube.com/shorts/CoW0nPICLKg"
       />
     </div>
 
@@ -34,11 +38,13 @@
         v-if="isLargeScreen"
         class="w-full h-auto object-contain rounded-3xl"
         src="/src/assets/images/testi3.png"
+        link="https://www.youtube.com/shorts/xLKp6Un6-Tc"
       />
       <Image
         v-else
         class="w-full h-auto object-contain rounded-3xl"
         src="/src/assets/images/testi33.png"
+        link="https://www.youtube.com/shorts/xLKp6Un6-Tc"
       />
     </div>
 
@@ -48,11 +54,13 @@
         v-if="isLargeScreen"
         class="w-full h-auto object-contain rounded-3xl"
         src="/src/assets/images/testi4.png"
+        link="https://www.youtube.com/shorts/bzVViPHDg3U"
       />
       <Image
         v-else
         class="w-full h-auto object-contain rounded-3xl"
         src="/src/assets/images/testi44.png"
+        link="https://www.youtube.com/shorts/bzVViPHDg3U"
       />
     </div>
 
@@ -62,11 +70,13 @@
         v-if="isLargeScreen"
         class="w-full h-auto object-contain rounded-3xl"
         src="/src/assets/images/testi5.png"
+        link="https://www.youtube.com/shorts/4FnJlzNtFb8"
       />
       <Image
         v-else
         class="w-full h-auto object-contain rounded-3xl"
         src="/src/assets/images/testi55.png"
+        link="https://www.youtube.com/shorts/4FnJlzNtFb8"
       />
     </div>
 
