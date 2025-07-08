@@ -20,7 +20,7 @@
         <Image class="w-20 cursor-pointer" src="/src/assets/images/logo.png" />
 
         <!-- Tombol toggle: tampilkan ☰ -->
-        <div @click="toggleMenu" class="absolute right-[10px] top-0 text-2xl font-extrabold text-blue-500 cursor-pointer z-50 mt-4 bg-white rounded-lg px-[4px] text-center">
+        <div @click="toggleMenu" class="absolute left-[10px] top-0 text-2xl font-extrabold text-blue-500 cursor-pointer z-50 mt-4 bg-white rounded-lg px-[4px] text-center">
           ☰
         </div>
 

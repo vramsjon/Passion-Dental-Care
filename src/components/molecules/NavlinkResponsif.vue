@@ -1,21 +1,21 @@
 <template>
-  <div v-if="isOpen" class="fixed top-0 left-0 z-50 w-full bg-white grid grid-cols-4 p-2 pb-10 rounded-b-xl">
+  <div v-if="isOpen" class="fixed top-0 left-0 z-50 w-[60%] bg-[#01BAB4] flex flex-col p-4 gap-y-5">
     <!-- Daftar menu -->
-    <Link><TextBold>Beranda</TextBold></Link>
-    <Link><TextBold>Tentang</TextBold></Link>
-    <Link><TextBold>Layanan</TextBold></Link>
-    <Link><TextBold>Dokter</TextBold></Link>
-    <Link><TextBold>Promo</TextBold></Link>
-    <Link><TextBold>Artikel</TextBold></Link>
-    <Link><TextBold>Lokasi</TextBold></Link>
-    <Link><TextBold>Reservasi</TextBold></Link>
+    <Link><TextBold class="border-b border-gray-200">Beranda</TextBold></Link>
+    <Link><TextBold class="border-b border-gray-200">Tentang</TextBold></Link>
+    <Link><TextBold class="border-b border-gray-200">Layanan</TextBold></Link>
+    <Link><TextBold class="border-b border-gray-200">Dokter</TextBold></Link>
+    <Link><TextBold class="border-b border-gray-200">Promo</TextBold></Link>
+    <Link><TextBold class="border-b border-gray-200">Artikel</TextBold></Link>
+    <Link><TextBold class="border-b border-gray-200">Lokasi</TextBold></Link>
+    <Link><TextBold class="border-b border-gray-200">Reservasi</TextBold></Link>
 
     <!-- Tombol X di pojok kanan bawah -->
     <div
-      class="absolute top-23 right-[45%] text-sm text-white cursor-pointer rounded-[100%] text-center bg-red-700 font-bold px-[7px] py-[2px] "
+      class="absolute top-[45%] right-[-10px] text-sm text-gray-600 cursor-pointer rounded-[100%] text-center bg-[#01BAB4] font-bold px-[2px] py-[8px] "
       @click="$emit('close')"
     >
-      ✕
+      <<      
     </div>
   </div>
 </template>
