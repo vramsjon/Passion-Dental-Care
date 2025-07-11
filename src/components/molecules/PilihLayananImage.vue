@@ -1,14 +1,17 @@
 <template>
   <div class="grid grid-cols-3 place-items-center px-4">
-    <div
-      class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
-    >
-      <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/1.png" />
-      <HeadingBlueToska>Venner Gigi</HeadingBlueToska>
-      <TeksBlueToska>
-        Memperbaiki gigi kuning, rusak, serta tidak sejajar sehingga lebih putih dan rapi
-      </TeksBlueToska>
-    </div>
+    <RouterLink to="/venner-gigi">
+      <div
+        class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
+      >
+        <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/1.png" />
+        <HeadingBlueToska>Venner Gigi</HeadingBlueToska>
+        <TeksBlueToska>
+          Memperbaiki gigi kuning, rusak, serta tidak sejajar sehingga lebih putih dan rapi
+        </TeksBlueToska>
+      </div>
+    </RouterLink>
+
     <div
       class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
     >
@@ -103,7 +106,7 @@
       class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
     >
       <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/12.png" />
-      <div >
+      <div>
         <HeadingBlueToska>Perawatan Gigi Anak</HeadingBlueToska>
         <TeksBlueToska>
           Perawatan gigi anak untuk usia 6 bulan - 1 tahun atau saat gigi pertama anak tumbuh
