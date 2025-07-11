@@ -3,16 +3,16 @@
     <div class="w-screen">
       <div
         v-if="isLargeScreen"
-        class="w-full h-[730px] bg-[url('/src/assets/images/talentbg.png')] sm:left-20 bg-contain bg-no-repeat bg-center flex lg:items-end justify-center flex-col"
+        class="w-full h-[730px] bg-[url('/images/talentbg.png')] sm:left-20 bg-contain bg-no-repeat bg-center flex lg:items-end justify-center flex-col"
       >
         <JanjiTemuTeks />
       </div>
 
       <div
         v-else
-        class=" w-[100%] h-[500px] relative bg-[url('/src/assets/images/bgresponsif.png')] bg-cover bg-no-repeat bg-center flex justify-center flex-col py-10  lg:items-end"
+        class=" w-[100%] h-[500px] relative bg-[url('/images/bgresponsif.png')] bg-cover bg-no-repeat bg-center flex justify-center flex-col py-10  lg:items-end"
       >
-        <Image class="w-[90%] mx-auto z-10" src="/src/assets/images/talentresponsif.png" />
+        <Image class="w-[90%] mx-auto z-10" src="/images/talentresponsif.png" />
         <JanjiTemuTeks class="absolute z-20 top-[250px]"></JanjiTemuTeks>
       </div>
     </div>

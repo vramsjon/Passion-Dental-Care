@@ -16,14 +16,14 @@
       <p class="text-white text-xl italic font-bold">Ikuti untuk informasi lainnya!</p>
       <div class="flex justify-start items-center gap-4">
         <div>
-          <Image class="lg:w-[60px] w-[50px]" src="/src/assets/images/ig.png" />
+          <Image class="lg:w-[60px] w-[50px]" src="/images/ig.png" />
         </div>
         <div class="lg:gap-5 gap-5 flex">
           <div >
-            <Image class="lg:w-[45px] w-[40px]" src="/src/assets/images/yt.png" />
+            <Image class="lg:w-[45px] w-[40px]" src="/images/yt.png" />
           </div>
           <div>
-            <Image class="lg:w-[45px] w-[40px]" src="/src/assets/images/tiktok.png" />
+            <Image class="lg:w-[45px] w-[40px]" src="/images/tiktok.png" />
           </div>
         </div>
       </div>

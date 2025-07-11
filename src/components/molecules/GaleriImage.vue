@@ -32,11 +32,11 @@ import Heading1 from '../atoms/Heading1.vue'
 import TeksBlueBold from '../atoms/TeksBlueBold.vue'
 
 const galeriItems = [
-  { src: '/src/assets/images/galeri11.png', label: 'Teknologi Canggih' },
-  { src: '/src/assets/images/galeri22.png', label: 'Perawatan Scalling Gigi' },
-  { src: '/src/assets/images/galeri33.png', label: 'Terapi Pijat Rahang Sesudah Perawatan' },
-  { src: '/src/assets/images/galeri44.png', label: 'Penambalan Gigi' },
-  { src: '/src/assets/images/galeri55.png', label: 'Perawatan Estetik & Fungsionalitas' },
-  { src: '/src/assets/images/galeri66.png', label: 'Pemeriksaan Gigi' },
+  { src: '/images/galeri11.png', label: 'Teknologi Canggih' },
+  { src: '/images/galeri22.png', label: 'Perawatan Scalling Gigi' },
+  { src: '/images/galeri33.png', label: 'Terapi Pijat Rahang Sesudah Perawatan' },
+  { src: '/images/galeri44.png', label: 'Penambalan Gigi' },
+  { src: '/images/galeri55.png', label: 'Perawatan Estetik & Fungsionalitas' },
+  { src: '/images/galeri66.png', label: 'Pemeriksaan Gigi' },
 ]
 </script>

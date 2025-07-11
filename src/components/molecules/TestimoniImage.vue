@@ -5,13 +5,13 @@
       <Image
         v-if="isLargeScreen"
         class="w-full h-auto object-contain rounded-3xl"
-        src="/src/assets/images/testi1.png"
+        src="/images/testi1.png"
         link="https://www.youtube.com/shorts/PkXM-9HEJAw"
       />
       <Image
         v-else
         class="w-full h-auto object-contain rounded-3xl"
-        src="/src/assets/images/testi11.png"
+        src="/images/testi11.png"
         link="https://www.youtube.com/shorts/PkXM-9HEJAw"
       />
     </div>
@@ -21,13 +21,13 @@
       <Image
         v-if="isLargeScreen"
         class="w-full h-auto object-contain rounded-3xl"
-        src="/src/assets/images/testi2.png"
+        src="/images/testi2.png"
         link="https://www.youtube.com/shorts/CoW0nPICLKg"
       />
       <Image
         v-else
         class="w-full h-auto object-contain rounded-3xl"
-        src="/src/assets/images/testi22.png"
+        src="/images/testi22.png"
         link="https://www.youtube.com/shorts/CoW0nPICLKg"
       />
     </div>
@@ -37,13 +37,13 @@
       <Image
         v-if="isLargeScreen"
         class="w-full h-auto object-contain rounded-3xl"
-        src="/src/assets/images/testi3.png"
+        src="/images/testi3.png"
         link="https://www.youtube.com/shorts/xLKp6Un6-Tc"
       />
       <Image
         v-else
         class="w-full h-auto object-contain rounded-3xl"
-        src="/src/assets/images/testi33.png"
+        src="/images/testi33.png"
         link="https://www.youtube.com/shorts/xLKp6Un6-Tc"
       />
     </div>
@@ -53,13 +53,13 @@
       <Image
         v-if="isLargeScreen"
         class="w-full h-auto object-contain rounded-3xl"
-        src="/src/assets/images/testi4.png"
+        src="/images/testi4.png"
         link="https://www.youtube.com/shorts/bzVViPHDg3U"
       />
       <Image
         v-else
         class="w-full h-auto object-contain rounded-3xl"
-        src="/src/assets/images/testi44.png"
+        src="/images/testi44.png"
         link="https://www.youtube.com/shorts/bzVViPHDg3U"
       />
     </div>
@@ -69,13 +69,13 @@
       <Image
         v-if="isLargeScreen"
         class="w-full h-auto object-contain rounded-3xl"
-        src="/src/assets/images/testi5.png"
+        src="/images/testi5.png"
         link="https://www.youtube.com/shorts/4FnJlzNtFb8"
       />
       <Image
         v-else
         class="w-full h-auto object-contain rounded-3xl"
-        src="/src/assets/images/testi55.png"
+        src="/images/testi55.png"
         link="https://www.youtube.com/shorts/4FnJlzNtFb8"
       />
     </div>
@@ -83,18 +83,18 @@
     <div>
       <div
         v-if="isLargeScreen"
-        class="bg-[url('/src/assets/images/Background.png')] w-full min-h-[340px] bg-center bg-no-repeat bg-cover bg- object-contain lg:w-[1066px] lg:h-[540px] rounded-4xl flex lg:mt-40 relative"
+        class="bg-[url('/images/Background.png')] w-full min-h-[340px] bg-center bg-no-repeat bg-cover bg- object-contain lg:w-[1066px] lg:h-[540px] rounded-4xl flex lg:mt-40 relative"
       >
         <div
           class="rounded-4xl bg-[#092A62] h-[210px] lg:w-[865px] lg:h-[389px] lg:left-[200px] lg:top-[80px] lg:relative z-3"
         >
           <Image
             class="lg:w-[546px] lg:h-[708px] lg:absolute lg:left-[-250px] lg:top-[-248px]"
-            src="/src/assets/images/Talent2.png"
+            src="/images/Talent2.png"
           />
           <Image
             class="lg:w-[605px] lg:absolute lg:left-[200px] lg:top-[80px]"
-            src="/src/assets/images/coment.png"
+            src="/images/coment.png"
           />
         </div>
       </div>
@@ -102,16 +102,16 @@
       <div v-else class="relative">
         <div class="p-6">
           <div
-            class="bg-[url('/src/assets/images/Background.png')] w-full min-h-[340px] bg-center bg-no-repeat bg-cover object-contain rounded-4xl flex flex-col items-center justify-center relative"
+            class="bg-[url('/images/Background.png')] w-full min-h-[340px] bg-center bg-no-repeat bg-cover object-contain rounded-4xl flex flex-col items-center justify-center relative"
           >
             <Image
               class="w-[306px] h-auto absolute top-[-100px] left-[20px]"
-              src="/src/assets/images/Talent2.png"
+              src="/images/Talent2.png"
             />
           </div>
         </div>
-        <div class="bg-[#092A62] h-[210px] w-[100%] flex items-center mt-[-200px] p-6 z-60 relative">
-          <Image class="w-full h-auto" src="/src/assets/images/coment.png" />
+        <div class="bg-[#092A62] h-[210px] w-[100%] flex items-center mt-[-200px] p-6 z-48 relative">
+          <Image class="w-full h-auto" src="/images/coment.png" />
         </div>
       </div>
     </div>

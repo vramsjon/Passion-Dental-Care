@@ -1,6 +1,6 @@
 <template>
-    <InfoSection></InfoSection>
-    <GuaranteeSection></GuaranteeSection>
+    <InfoSection></InfoSection> 
+    <GuaranteeSection></GuaranteeSection> 
     <WhyChooseUsSection></WhyChooseUsSection>
     <ScheduleSection></ScheduleSection>
     <TrustedClinicSection></TrustedClinicSection>
@@ -11,8 +11,8 @@
     <BehelSection></BehelSection>
     <KonsultasiSection></KonsultasiSection>
     <KerjaSamaSection>  </KerjaSamaSection>
-    <JanjiTemuSection></JanjiTemuSection>
-    <FooterSection></FooterSection>
+    <!-- <JanjiTemuSection></JanjiTemuSection>
+    <FooterSection></FooterSection> -->
 </template>
 <script setup>
 import InfoSection from '../organisms/InfoSection.vue'
