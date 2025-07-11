@@ -1,7 +1,7 @@
 <template>
   <div class="fixed top-0 left-0 w-full z-50 bg-white border-b border-gray-200">
     <div class="flex justify-between w-full py-2 px-4 items-center">
-      <Image class="w-20" src="/images/logo.png" />
+      <Image class="w-12" src="/images/logo.png" />
       <div
         @click="toggleMenu"
         class="text-2xl font-extrabold text-blue-900 cursor-pointer bg-white rounded-lg px-[6px] text-center border border-gray-300 h-10"
