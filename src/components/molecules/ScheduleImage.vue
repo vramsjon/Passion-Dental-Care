@@ -1,6 +1,6 @@
 <template>
   <div
-    class="lg:bg-[url('/src/assets/images/talent1.png')] flex bg-center bg-no-repeat lg:h-[900px] items-center lg:pt-[710px]"
+    class="lg:bg-[url('/images/talent1.png')] flex bg-center bg-no-repeat lg:h-[900px] items-center lg:pt-[710px]"
   >
     <div class="bg-[#092A62]/80 rounded-xl lg:rounded-3xl px-5 lg:p-10 text-center text-white lg:max-w-md w-full">
       <Heading1>Hari Besar Tetap Buka</Heading1>

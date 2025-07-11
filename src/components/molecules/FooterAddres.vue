@@ -1,14 +1,14 @@
 <template>
   <div class="grid lg:grid-cols-3 grid-cols-2 gap-4 lg:gap-10 lg:gap-y-20">
     <div class="bg-[#144572] rounded-2xl lg:w-[341px] h-[102px] lg:h-[162px] w-full relative">
-      <Image class="absolute w-30 lg:w-50 lg:left-[-15px] top-[6px]" src="/src/assets/images/tracking.png" />
+      <Image class="absolute w-30 lg:w-50 lg:left-[-15px] top-[6px]" src="/images/tracking.png" />
 
       <Teks3 class="absolute lg:left-[100px] lg:top-[30px] left-[50px] top-[15px]">Lokasi Klinik Bandung</Teks3>
       <Teks2 class="absolute lg:left-[130px] lg:top-[60px] left-[60px] top-[30px]">Passion Dental Care</Teks2>
     </div>
     <div class="w-full lg:w-[341px] lg:h-[162px]">
       <div class="flex lg:gap-4 gap-2 justify-center items-center">
-        <Image class="w-5 lg:w-[40px] h-5 lg:h-[48px]" src="/src/assets/images/alamat.png" />
+        <Image class="w-5 lg:w-[40px] h-5 lg:h-[48px]" src="/images/alamat.png" />
         <Heading2>Passion Dental Care Gegerkalong</Heading2>
       </div>
       <div>
@@ -20,7 +20,7 @@
     </div>
     <div class="w-full lg:w-[380px] lg:h-[162px]">
       <div class="flex gap-2 lg:gap-4 justify-center items-center">
-        <Image class="w-4 h-5 lg:w-[40px] lg:h-[48px]" src="/src/assets/images/alamat.png" />
+        <Image class="w-4 h-5 lg:w-[40px] lg:h-[48px]" src="/images/alamat.png" />
         <Heading2>Passion Dental Care Parongpong-Lembang</Heading2>
       </div>
       <div>
@@ -31,7 +31,7 @@
     </div>
     <div class="w-full lg:w-[341px] lg:h-[162px]">
       <div class="flex gap-2 lg:gap-4 justify-center items-center">
-        <Image class="w-4 h-5 lg:w-[40px] lg:h-[48px]" src="/src/assets/images/alamat.png" />
+        <Image class="w-4 h-5 lg:w-[40px] lg:h-[48px]" src="/images/alamat.png" />
         <Heading2>Passion Dental Care Buah Batu-Ciwastra</Heading2>
       </div>
       <div>
@@ -42,7 +42,7 @@
     </div>
     <div class="w-full lg:w-[341px] lg:h-[162px]">
       <div class="flex gap-2 lg:gap-4 justify-center items-center">
-        <Image class="w-4 h-5 lg:w-[40px] lg:h-[48px]" src="/src/assets/images/alamat.png" />
+        <Image class="w-4 h-5 lg:w-[40px] lg:h-[48px]" src="/images/alamat.png" />
         <Heading2>Passion Dental Care Buah Sarijadi</Heading2>
       </div>
       <div>
@@ -53,7 +53,7 @@
     </div>
     <div class="lg:w-[341px] lg:h-[162px]">
       <div class="flex gap-2 lg:gap-4 justify-center items-center">
-        <Image class="w-4 h-5 lg:w-[40px] lg:h-[48px]" src="/src/assets/images/alamat.png" />
+        <Image class="w-4 h-5 lg:w-[40px] lg:h-[48px]" src="/images/alamat.png" />
         <Heading2>Passion Dental Care Melong Cijerah</Heading2>
       </div>
       <div>

@@ -1,17 +1,26 @@
 <template>
-  <div class="flex flex-wrap justify-between items-center w-full gap-4 md:gap-0">
-    <Link>
-      <TextBold>Beranda</TextBold>
-    </Link>
-    <Link>
-      <TextBold>Tentang</TextBold>
-    </Link>
-    <Link>
-      <TextBold>Layanan</TextBold>
-    </Link>
-    <Link>
-      <TextBold>Dokter</TextBold>
-    </Link>
+  <div class="flex justify-between items-center w-full gap-4 lg:gap-6">
+    <RouterLink to="/">
+      <Link>
+        <TextBold>Beranda</TextBold>
+      </Link>
+    </RouterLink>
+    <RouterLink to="/tentang-kami">
+      <Link>
+        <TextBold class="text-nowrap">Tentang</TextBold>
+      </Link>
+    </RouterLink>
+    <RouterLink to="/layanan">
+      <Link>
+        <TextBold>Layanan</TextBold>
+      </Link>
+    </RouterLink>
+
+    <RouterLink to="/tim-dokter">
+      <Link>
+        <TextBold>Tim Dokter</TextBold>
+      </Link>
+    </RouterLink>
   </div>
 </template>
 <script setup>

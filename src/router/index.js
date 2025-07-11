@@ -1,7 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import App from '/src/App.vue'
 import LandingPage from '/src/components/pages/LandingPage.vue'
-
+import TentangPage from '/src/components/pages/TentangPage.vue'
+import TimDokterPage from '../components/pages/TimDokterPage.vue'
+import LayananPage from '../components/pages/LayananPage.vue'
 
 const routes = [
   {
@@ -9,7 +11,21 @@ const routes = [
     name: LandingPage,
     component: LandingPage,
   },
-  
+  {
+    path: '/tentang-kami',
+    name: TentangPage,
+    component: TentangPage,
+  },
+  {
+    path: '/tim-dokter',
+    name: TimDokterPage,
+    component: TimDokterPage,
+  },
+  {
+    path: '/layanan',
+    name: LayananPage,
+    component: LayananPage,
+  }
 ]
 
 const router = createRouter({

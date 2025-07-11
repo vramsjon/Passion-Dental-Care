@@ -5,7 +5,7 @@
     <div class="flex flex-col items-center text-center w-full lg:basis-[calc(20%-24px)]">
       <Image
         class="max-w-[100px] max-h-[100px] w-full h-full object-contain"
-        src="/src/assets/images/tempat.png"
+        src="/images/tempat.png"
         alt="Tempat Nyaman"
       />
       <Teks2>Tempat Nyaman</Teks2>
@@ -13,7 +13,7 @@
     <div class="flex flex-col items-center text-center w-full lg:basis-[calc(20%-24px)]">
       <Image
         class="max-w-[100px] max-h-[100px] w-full h-full object-contain"
-        src="/src/assets/images/profesional.png"
+        src="/images/profesional.png"
         alt="Profesional"
       />
       <Teks2>Profesional</Teks2>
@@ -21,7 +21,7 @@
     <div class="flex flex-col items-center text-center w-full lg:basis-[calc(20%-24px)]">
       <Image
         class="max-w-[100px] max-h-[100px] w-full h-full object-contain"
-        src="/src/assets/images/teknologi.png"
+        src="/images/teknologi.png"
         alt="Teknologi Terkini"
       />
       <Teks2>Teknologi Terkini</Teks2>
@@ -29,7 +29,7 @@
     <div class="flex flex-col items-center text-center w-full lg:basis-[calc(20%-24px)]">
       <Image
         class="max-w-[100px] max-h-[100px] w-full h-full object-contain"
-        src="/src/assets/images/hasil.png"
+        src="/images/hasil.png"
         alt="Hasil Maksimal"
       />
       <Teks2>Hasil Maksimal</Teks2>
@@ -37,7 +37,7 @@
     <div class="flex flex-col items-center text-center w-full lg:basis-[calc(20%-24px)]">
       <Image
         class="max-w-[100px] max-h-[100px] w-full h-full object-contain"
-        src="/src/assets/images/hidden.png"
+        src="/images/hidden.png"
         alt="No Hidden Price"
       />
       <Teks2>No Hidden Price</Teks2>
@@ -45,7 +45,7 @@
     <div class="flex flex-col items-center text-center w-full lg:basis-[calc(20%-24px)]">
       <Image
         class="max-w-[100px] max-h-[100px] w-full h-full object-contain"
-        src="/src/assets/images/garansi.png"
+        src="/images/garansi.png"
         alt="Garansi Perawatan"
       />
       <Teks2>Garansi Perawatan</Teks2>
@@ -53,7 +53,7 @@
     <div class="flex flex-col items-center text-center w-full lg:basis-[calc(20%-24px)]">
       <Image
         class="max-w-[100px] max-h-[100px] w-full h-full object-contain"
-        src="/src/assets/images/pengalaman.png"
+        src="/images/pengalaman.png"
         alt="Pengalaman Berkesan"
       />
       <Teks2>Pengalaman Berkesan</Teks2>
@@ -61,7 +61,7 @@
     <div class="flex flex-col items-center text-center w-full lg:basis-[calc(20%-24px)]">
       <Image
         class="max-w-[100px] max-h-[100px] w-full h-full object-contain"
-        src="/src/assets/images/pembayaran.png"
+        src="/images/pembayaran.png"
         alt="Kemudahan Pembayaran"
       />
       <Teks2>Kemudahan Pembayaran</Teks2>
@@ -69,7 +69,7 @@
     <div class="flex flex-col items-center text-center w-full lg:basis-[calc(20%-24px)]">
       <Image
         class="max-w-[100px] max-h-[100px] w-full h-full object-contain"
-        src="/src/assets/images/wifi.png"
+        src="/images/wifi.png"
         alt="Free Wifi"
       />
       <Teks2>Free Wifi</Teks2>
