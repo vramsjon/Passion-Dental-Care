@@ -19,7 +19,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8080:80"
+      - "10002:80"
     depends_on:
       - local       # hanya kalau ingin memastikan dev selesai build dulu
     environment:
@@ -31,7 +31,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8080:80"
+      - "10001:80"
     depends_on:
       - local       # hanya kalau ingin memastikan dev selesai build dulu
     environment:
