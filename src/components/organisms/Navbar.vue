@@ -5,9 +5,9 @@
       isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
     ]"
   >
-    <div class="lg:flex items-center gap-10 lg:px-30 py-4 px-4">
+    <div class="lg:flex items-center gap-10 lg:px-30 py-2">
       <NavLink1 />
-      <Image class="w-[121px]" src="/images/logo.png" />
+      <Image class="w-[80px]" src="/images/logo.png" />
       <NavLink2 />
     </div>
   </div>
