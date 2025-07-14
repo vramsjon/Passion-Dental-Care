@@ -2,7 +2,7 @@
   <div class="bg-[#092A62]/80 rounded-4xl lg:px-30 lg:w-[576px] lg:h-[721px] flex flex-col justify-center px-20 py-4">
     <div class="flex">
       <Heading1>Jadwal</Heading1>
-      <Image class="max-w-10 lg:max-w-15 w-full h-auto " src="/src/assets/images/star.png" />
+      <Image class="max-w-10 lg:max-w-15 w-full h-auto " src="/images/star.png" />
     </div>
     <Heading1>Operasional</Heading1>
     <div class="lg:space-y-6 lg:mt-10 lg:max-w-[300px]">
