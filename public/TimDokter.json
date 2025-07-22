@@ -1,0 +1,111 @@
+{
+    "title": "Pelayanan dna Perawatan",
+    "description": "Passion Dental Care siap memberikan berbagai perawatan gigi bersama dokter terbaik untuk memnberikan senyum sehat untukmu",
+    "timDokter": [
+        {
+            "name": "Drg. Eva Risna",
+            "description": "Saya adalah dokter gigi yang bekerja dengan penuh semangat,  ramah, suka cerita dan terbuka, kreatif & inovatif, suka belajar hal baru, detail dan teliti, terstruktur, telaten dan presisi dalam melakukan pekerjaannya sebagai dokter gigi. Saya mempunyai passion dalam membantu pasien agar pasien mendapatkan pengunyahan  dan senyum lebih baik dengan membuatkan gigi palsu terbaik untuk pasien.",
+            "image": "/images/dokter1.png"
+        },
+        {
+            "name": ".Drg. Kelvin Gohan",
+            "description": "Saya adalah seorang Periodontis yang menangani masalah jaringan pendukung gigi. Untuk Anda yang memiliki masalah seperti gigi goyang, gusi bengkak, infeksi pada gusi, dll. mari periksakan gigi Anda di PDC.",
+            "image": "/images/dokter2.png"
+        },
+        {
+            "name": "Drg. Hanna",
+            "description": "Saya adalah dokter gigi yang bekerja dengan penuh semangat,  ramah, suka cerita dan terbuka, kreatif & inovatif, suka belajar hal baru, detail dan teliti, terstruktur, telaten dan presisi dalam melakukan pekerjaannya sebagai dokter gigi. Saya mempunyai passion dalam membantu pasien agar pasien mendapatkan pengunyahan  dan senyum lebih baik dengan membuatkan gigi palsu terbaik untuk pasien.",
+            "image": "/images/dokter3.png"
+        },
+        {
+            "name": "Drg. Bela Pramesi",
+            "description": "Saya adalah dokter gigi yang gaul, asyik, ramah, perfeksionis, suka belajar tentang hal baru, peduli, dan profesional. Saya suka mengerjakan penambalan gigi, pembersihan karang gigi, pembuatan gigi palsu, dan lainnya.",
+            "image": "/images/dokter4.png"
+        },
+        {
+            "name": "Drg. Tiara Kusuma",
+            "description": "Saya adalah Dokter gigi yang ramah, sabar, dan telaten terhadap pasien. Saya sabar dalam menangani dan membujuk pasien anak dalam perawatan. Sudah banyak kasus perawatan gigi yang saya tangani selama ini dan pasien merasa puas dengan pelayanan dan perawatannya.",
+            "image": "/images/dokter5.png"
+        },
+        {
+            "name": "Drg. Winda Galuh Pertiwi",
+            "description": "Halo, saya dokter gigi Winda Galuh Pertiwi, biasa dipanggil dokter Winda. Kata pasien-pasien saya, saya dokter gigi yang ramah, rame, sabar, dan telaten, jadi bikin mereka tidak takut kalau pas lagi perawatan. So, ayo jangan takut untuk pergi ke dokter gigi ya! Saya akan mendengarkan keluhan dan membantu merawat gigi anda dengan baik ",
+            "image": "/images/dokter6.png"
+        },
+        {
+            "name": "Drg. Ilham Fadhilah",
+            "description": "Seorang dokter gigi, berasal dari generasi Z namun siap melayani semua pasien dari berbagai generasi:) Jangan takut ke dokter gigi! Because Oral health is your Overall health.",
+            "image": "/images/dokter7.png"
+        },
+        {
+            "name" : "Febe Airin Wijaya",
+            "description": "Sebagai drg saya mempunyai bekal dan keterampilan yang sangat baik dalam bidang saya. Diperlengkapi dengan karakter saya yang cukup teliti dan detail dalam menangani setiap masalah gigi. Saya akan membantu kamu untuk lebih menyadari pentingnya kesehatan gigi dan mencapai hal tersebut dengan maksimal.",
+            "image": "/images/dokter8.png"
+        },
+        {
+            "name": "Drg. Agata Ayu Pratiwi",
+            "description": "Saya dikenal sebagai dokter gigi yang ramah dan detail. Saya akan menjelaskan secara rinci dan bersedia menjawab segala pertanyaan mengenai masalah gigi dan mulut anda beserta tindakannya, mulai dari penambalan, pencabutan, pembersihan karang gigi, pencerahan warna gigi, gigi palsu dan lain-lain. Saya juga senang berinteraksi dengan pasien anak sehingga mereka merasa nyaman dalam menerima perawatan gigi dan mulutnya.",
+            "image": "/images/dokter9.png"
+        },
+        {
+            "name": "Drg.Zalfa",
+            "description": "Sebagai dokter gigi yang mencintai segala hal yang dikerjakan dengan detail dan hati-hati, saya selalu mengusahakan agar pasien mendapatkan pelayanan terbaik, because ur satisfaction is my pleasure",
+            "image": "/images/dokter10.png"
+        },
+        {
+            "name": "Drg. Siti Amirah Nublah Shabrina",
+            "description": "Hallo, saya biasa dipanggil drg. Shabrina. Saya adalah dokter gigi yang ramah, detail dan selalu berusaha memberikan pelayanan kepada pasien dengan sepenuh hati. Komunikasi kepada pasien selalu terjalin dengan baik agar pasien selalu merasa nyaman dan puas dengan perawatan yang diberikan. Yuk kita jaga kondisi kesehatan gigi dan mulut bersama – sama.",
+            "image": "/images/dokter11.png"
+        },
+        {
+            "name": "Drg. Silmi",
+            "description": "Hai, perkenalkan saya dokter gigi Silmi. Katanya sih pekerjaan dokter gigi ini adalah kombinasi dari science, art, dan technics. Maka dari itu saya senang membantu orang- orang untuk tidak hanya mendapatkan kesehatan gigi mulut saja, tapi juga senyum terbaiknya ! ",
+            "image": "/images/dokter12.png"
+        },
+        {
+            "name": "Drg. Ali L. Andri",
+            "description": "Sebagai dokter gigi yang ramah, komunikatif dan edukatif, Saya drg Ali L. Andri memiliki komitmen untuk memberikan pelayanan yang nyaman serta solusi yang terbaik secara profesional untuk meningkatkan quality of life anda.",
+            "image": "/images/dokter13.png"
+        },
+        {
+            "name":"Drg. Christina S Healthyni",
+            "description": "Saya telah melayani lebih dari 20 tahun, saya menghargai dan mendengarkan keluhan pasien, memeriksa, menolong pasien memahami kondisi mulut dan giginya, Saya juga dikenal bersahabat, sabar dan efisien dalam melayani pasien lanjut usia dan anak. Saya memiliki minat khusus terhadap penelitian kanker mulut dan telah menjalani studi bioteknologi serta “Regenerative medicine and tissue engineering” di Italia untuk mempelajari penyembuhan jaringan yang lebih baik.",
+            "image": "/images/dokter14.png"
+        },
+        {
+            "name": "Drg. Charmelita Clara",
+            "description": "Saya adalah dokter gigi yang bekerja dengan sepenuh hati, ramah, dan profesional dalam merawat pasien. Setiap pasien memiliki kebutuhan perawatan gigi yang berbeda, saya berusaha untuk mendengarkan keluhan pasien dengan baik dan merancangkan rencana perawatan yang sesuai dengan kebutuhan dan keinginan pasien.",
+            "image": "/images/dokter15.png"
+        },
+        {
+            "name": "Drg.Nisyah",
+            "description": "Hallo, saya drg Nisyah! Saya punya komitmen untuk terus belajar hal baru agar bisa bantu pasien – pasien saya memecahkan masalah gigi dan mulutnya, “Painless and Comfort treatment” selalu jadi tujuan utama saya. Saya juga suka ngobrol, jadi… yuk ngobrolin treatment gigi bareng saya. Salam sehat ",
+            "image": "/images/dokter16.png"
+        },
+        {
+            "name": "Drg. Meriyati Pratama M",
+            "description": "Haii... Saya dokter Merry💕, sebagai dokter gigi yang ramah, komunikatif dan terampil.. Saya siap mengembalikan Senyum dan percaya diri kamu😉 yukkk Cek kesehatan gigi dan mulutmu di Passion Dental Care.. Start your day with gratitude and beautiful smile✨",
+            "image": "/images/dokter17.png"
+        },
+        {
+            "name": "Felix Phang drg., Sp.Prost",
+            "description": "Saya adalah seorang dokter gigi spesialis prostodonsia yang menangani masalah fungsional pengunyahan dan estetika akibat kehilangan gigi. Saya mempunyai misi untuk membantu serta berdiskusi mengenai perawatan gigi tiruan yang tepat untuk anda. Untuk anda yang membutuhkan gigi tiruan lepasan, jembatan, crown, veneer, implant dll serta memiliki keluhanmengunyah, ingin senyuman lebih indah, mari konsultasikan bersama kami di klinik PDC.",
+            "image": "/images/dokter18.png"
+        },
+        {
+            "name": "Drg. Fieki Izzatul Yazidah",
+            "description": "Sebagai dokter gigi, saya akan mengutamakan kepuasan pasien. Saya akan memeriksa pasien berdasarkan keluhan dan masalah gigi yg ada lalu menjelaskan kepada pasien apa saja masalah gigi yg ada dan tindakan yg perlu dilakukan. Saya sangat terbuka dengan pasien jika pasien bertanya tentang masalah yg ada di rongga mulut maupun macam-macam perawatan gigi yg pasien ingin ketahui. Saya juga berusaha untuk menyesuaikan kondisi ekonomi dan sosial pasien dengan perawatan yg bisa dilakukan untuk keluhan gigi pasien. Selain itu saya juga dikenal",
+            "image": "/images/dokter19.png"
+        },
+        {
+            "name": "Drg. Faradilla Kharisma",
+            "description": "Saya adalah dokter gigi yang saat ini sedang menjalani pendidikan dokter gigi spesialis ortodonti Estetika gigi adalah kunci dalam senyum seseorang. scalling, penambalan gigi, pembuatan mahkota gigi, bleaching & pencabutan merupakan fokus utama perawatan yg akan saya berikan untuk menunjang estetika. Kenyamanan pasien, komunikasi dan efisiensi dalam perawatan menjadi kunci utama kami dalam memberikan perawatan.",
+            "image": "/images/dokter20.png"
+        },
+        {
+            "name": "Drg.Dela Puspita",
+            "description": "Dokter gigi berpengalaman dalam memberikan pelayanan berkualitas tinggi, Berkomitemen kuat terhadap kesehatan gigi pasien dan kemahiran dalam mendiagnosis dan merawat berbagai penyakit mulut. Memiliki keterampilan komunikasi yang baik, mampu membangun hubungan yang kuat dan mengedukasi pasien untuk menjaga kebersihan mulut yang tepat. Dan mahir dalam menggunakan teknologi gigi terbaru dan berusaha memanfaatkan keterampilan dan pengalaman untuk memberikan pelayanan gigi yang maksimal.",
+            "image": "/images/dokter21.png"
+        }
+    ]
+}

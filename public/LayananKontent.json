@@ -1,20 +1,721 @@
 [
-    {
-        "judul": "Bagaimana Venner Menciptakan Senyum Sempurna",
-        "deskripsi": "Perawatan yang satu ini sangatlah berguna untuk Anda yang menginginkan gigi yang rapi. Perawatan ini bertujuan untuk memperbaiki warna serta bentuk gigi Anda menjadi sesuai apa yang diinginkan. Veneer gigi akan menempel secara permanen, sedangkan bahan untuk veneer adalah resin dan porselen. Kondisi gigi yang biasanya di veneer adalah yang memiliki keadaan seperti patah, renggang dan juga perubahan warna pada gigi. Masa usia veneer gigi tergantung pada jenis veneer yang akan Anda gunakan. Semua bergantung dengan bagaimana Anda merawat kesehatan gigi setelah melakukan perawatan veneer.",
-        "subjudul": "Manfaat Venner",
+  {
+    "code": "VENNER GIGI",
+    "slug": "venner-gigi",
+    "service": "Pelayanan",
+    "title": "Venner Gigi",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "price": "Rp 600.000/ Gigi",
+    "type": "Venner Komposit*",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/vennerbg_img_url.png",
+    "backgroundMobile": "/images/vennerbgmobile_img_url.png",
+    "content": [
+      {
+        "image": "/images/vennermobile_img_url.png",
+        "title": "Bagaimana Venner Menciptakan Senyum Sempurna",
+        "description": "Perawatan yang satu ini sangatlah berguna untuk Anda yang menginginkan gigi yang rapi. Perawatan ini bertujuan untuk memperbaiki warna serta bentuk gigi Anda menjadi sesuai apa yang diinginkan. Veneer gigi akan menempel secara permanen, sedangkan bahan untuk veneer adalah resin dan porselen. Kondisi gigi yang biasanya di veneer adalah yang memiliki keadaan seperti patah, renggang dan juga perubahan warna pada gigi. Masa usia veneer gigi tergantung pada jenis veneer yang akan Anda gunakan. Semua bergantung dengan bagaimana Anda merawat kesehatan gigi setelah melakukan perawatan veneer.",
+        "subTitle": "Manfaat Venner",
+        "descriptionSubTitle": "Semua perawatan gigi yang Anda lakukan pasti memiliki manfaat, begitu juga dengan veneer gigi. Sama halnya behel gigi, veneer juga berguna untuk merapatkan gigi. Namun berbeda prosesnya, kalau behel biasanya digunakan untuk memperbaiki posisi gigi secara menyeluruh. Sedangkan veneer gigi bisa dilakukan hanya dengan satu bagian gigi saja. Veneer lebih dipilih karena mampu memberikan kesan natural pada gigi. ",
         "manfaat": [
-            {
-                "deskripsi": "Semua perawatan gigi yang Anda lakukan pasti memiliki manfaat, begitu juga dengan veneer gigi. Sama halnya behel gigi, veneer juga berguna untuk merapatkan gigi. Namun berbeda prosesnya, kalau behel biasanya digunakan untuk memperbaiki posisi gigi secara menyeluruh. Sedangkan veneer gigi bisa dilakukan hanya dengan satu bagian gigi saja. Veneer lebih dipilih karena mampu memberikan kesan natural pada gigi. "
-            },
-            {
-                "judul": "1. Membuat warna gigi lebih putih dan cerah sesuai yang kamu inginkan",
-                "deskripsi": "Gigi yang tampak menguning pasti akan membuat Anda tidak percaya diri dibuatnya. Ingin gigi putih seperti para artis? Dengan perawatan veneer ini, gigi kamu akan dilapisi sehingga dapat menyesuaikan tingkat keputihan dan kecerahan yang anda inginkan."
-            },
-            {
-                "judul": "2. Memperbaiki kerusakan gigi",
-                "deskripsi": "Kerusakan gigi bisa saja Anda alami seperti gigi patah, ataupun retak. Kondisi ini akan bisa ditangani dengan proses veneer gigi. Gigi Anda yang patah akibat kecelakaan saat berolahraga, ataupun saat berkendara akan bisa menjadi utuh kembali setelah melakukan veneer."
-            }
+          {
+            "title": "1. Membuat warna gigi lebih putih dan cerah sesuai yang kamu inginkan",
+            "description": "Gigi yang tampak menguning pasti akan membuat Anda tidak percaya diri dibuatnya. Ingin gigi putih seperti para artis? Dengan perawatan veneer ini, gigi kamu akan dilapisi sehingga dapat menyesuaikan tingkat keputihan dan kecerahan yang anda inginkan."
+          },
+          {
+            "title": "2. Memperbaiki kerusakan gigi",
+            "description": "Kerusakan gigi bisa saja Anda alami seperti gigi patah, ataupun retak. Kondisi ini akan bisa ditangani dengan proses veneer gigi. Gigi Anda yang patah akibat kecelakaan saat berolahraga, ataupun saat berkendara akan bisa menjadi utuh kembali setelah melakukan veneer."
+          }
+        ],
+        "benefitDescription": "Itulah sejumlah manfaat venner gigi. Jika anda memutuskan ingin melakukan perawatan venner gigi ada baiknya melakukan konsultasi terlebih dahulu dengan dokter gigi"
+      },
+      {
+        "imageDekstop": "/images/vennerImg_img_url.png",
+        "imageMobile": "/images/vennermob_img_url.png"
+      },
+      {
+        "title": "Jenis Behel di Passioan Dental Care",
+        "description": " Dapatkan senyum sempurna dengan behel gigi! Kami menawarkan berbagai jenis behel yang disesuaikan dengan kebutuhan dan preferensi Anda.",
+        "type": [
+          {
+            "image": "/images/behelMetal_img_url.png",
+            "title": "Behel Metal",
+            "description": "Behel jenis ini adalah jenis yang paling sering digunakan dan paling murah harganya."
+          },
+          {
+            "image": "/images/behelMetal1_img_url.png",
+            "title": "Behel Ceramic",
+            "description": "Behel jenis ini sangat transparan dan tidak tampak seperti memakai behel. Cocok untuk kalian yang tidak suka dengan warna yang mencolok."
+          },
+          {
+            "image": "/images/behelMetal2_img_url.png",
+            "title": "Behel Self-ligating Damon",
+            "description": "Behel jenis ini tidak memakai karet seperti pada umumnya behel lain dan lebih cepat proses penyembuhannya. tidak terasa sakit saat pemasangan dan masa penyembuhan nya."
+          },
+          {
+            "image": "/images/behelMetal3_img_url.png",
+            "title": "Behel Klar Clear Aligner",
+            "description": "Behel jenis ini adalah jenis baru untuk merapikan gigi tanpa behel dan bening, sangat praktis dan nyaman dipakai. Dibuat dengan teknologi yang canggih khusus untuk pasien. Cocok untuk yang tidak mau terlihat menggunakan behel tapi tetep rapih."
+          }
         ]
-    }
+      },
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/coment.png",
+        "background": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "BEHEL GIGI",
+    "slug": "behel-gigi",
+    "service": "Pelayanan",
+    "title": "Behel Gigi/Kawat Gigi",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "pricePasangBehel": "Rp 2.490.000 - Rp 6.000.000*",
+    "type1": "Pasang Behel",
+    "priceKontrolGigi": "Rp 250.000",
+    "type2": "Kontrol Gigi",
+    "text": "*Tersedia paket cicilan mulai dari Rp 799.000 per-bulan!",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/behelbgDekstop_img_url.png",
+    "backgroundMobile": "/images/behelbgMobile_img_url.png",
+    "content": [
+      {
+        "image": "/images/behelHero_img_url.png",
+        "title": "Wujudkan Mimpi Anda untuk Punya Gigi yang Rapi",
+        "description": "Pasang behel gigi merupakan prosedur untuk memperbaiki posisi rahang atau susunan gigi yang tidak rapi. Tentu saja, posisi rahang dan gigi yang tidak rapi dapat mengganggu proses mengunyah makanan, merusak gigi, dan mengganggu bentuk wajah. Cara terbaik untuk mengatasi hal tersebut adalah dengan pasang behel. Namun, sebelum memasangnya, kita harus mengenal serba-serbi behel gigi dan rentang harga perawatannya. Konsultasikan kepada dokter gigi di Passion Dental Care untuk mengetahui behel jenis apa yang sesuai dengan kondisi gigi dan rahang Anda.",
+        "subTitle": "Manfaat Pasang Behel Gigi",
+        "descriptionSubTitle": "Gigi yang tidak rapi, membuat sebagian orang tidak percaya diri untuk tersenyum. Kondisi ini membuat pasang behel menjadi alternatif untuk mengatasinya. Berikut sederet manfaat dan fungsi behel gigi, di antaranya:",
+        "manfaat": [
+          {
+            "title": "1. Struktur Gigi Lebih Rapi",
+            "description": "Pasang behel gigi bermanfaat untuk kebersihan gigi dan mulut lebih efektif. Sebab, gigi yang tidak rapi akan lebih sulit dibersihkan, sehingga resiko penumpukan plak gigi lebih tinggi dibandingkan yang memiliki gigi rapi. Telah terbukti bahwa gigi yang berantakan akan lebih sulit untuk disikat dan dibersihkan dengan benang. Selain itu, makanan juga cenderung mudah tersangkut di antara gigi yang tidak sejajar. Oleh karena itu, setelah menjalani perawatan kawat gigi, akan lebih mudah untuk menjaga kebersihan mulut dan gigi lebih rapi."
+          },
+          {
+            "title": "2. Menjaga Sistem Pencernaan",
+            "description": "Salah satu fungsi utama gigi adalah untuk memotong dan menggiling makanan yang diterima. Fungsi ini tidak dapat dilakukan dengan baik ketika gigi tidak sejajar. Dalam hal ini, makanan yang tidak terpotong dengan baik dapat mempengaruhi pencernaan. Setelah perawatan behel/kawat gigi, gigi akan jauh lebih efisien dalam hal ini dan ini akan meningkatkan fungsi pencernaan."
+          }
+        ]
+      },
+      {
+        "imageDekstop": "/images/behelDekstop_img_url.png",
+        "imageMobile": "/images/behelmobile_img_url.png"
+      },
+      {
+        "title": "Jenis Behel di Passioan Dental Care",
+        "description": " Dapatkan senyum sempurna dengan behel gigi! Kami menawarkan berbagai jenis behel yang disesuaikan dengan kebutuhan dan preferensi Anda.",
+        "type": [
+          {
+            "image": "/images/behelMetal_img_url.png",
+            "title": "Behel Metal",
+            "description": "Behel jenis ini adalah jenis yang paling sering digunakan dan paling murah harganya."
+          },
+          {
+            "image": "/images/behelMetal1_img_url.png",
+            "title": "Behel Ceramic",
+            "description": "Behel jenis ini sangat transparan dan tidak tampak seperti memakai behel. Cocok untuk kalian yang tidak suka dengan warna yang mencolok."
+          },
+          {
+            "image": "/images/behelMetal2_img_url.png",
+            "title": "Behel Self-ligating Damon",
+            "description": "Behel jenis ini tidak memakai karet seperti pada umumnya behel lain dan lebih cepat proses penyembuhannya. tidak terasa sakit saat pemasangan dan masa penyembuhan nya."
+          },
+          {
+            "image": "/images/behelMetal3_img_url.png",
+            "title": "Behel Klar Clear Aligner",
+            "description": "Behel jenis ini adalah jenis baru untuk merapikan gigi tanpa behel dan bening, sangat praktis dan nyaman dipakai. Dibuat dengan teknologi yang canggih khusus untuk pasien. Cocok untuk yang tidak mau terlihat menggunakan behel tapi tetep rapih."
+          }
+        ]
+      },
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/coment2.png",
+        "background": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "GIGI TIRUAN",
+    "slug": "gigi-tiruan",
+    "service": "Pelayanan",
+    "title": "Gigi Tiruan Lepasan",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "priceGigiPertama": "Rp 1.500.000",
+    "type1": "(Gigi Pertama)",
+    "priceGigiBerikut": "Rp 150.000",
+    "type2": "/ Gigi Berikutnya",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/gigitiruanbg_img_url.png",
+    "backgroundMobile": "/images/gigitiruanbgmb_img_url.png",
+    "content": [
+      {
+        "image": "/images/gigitiruanmb_img_url.png",
+        "title": "Gigi Tiruan Merupakan Pengganti Fungsi Gigi yang Hilang untuk  Mengembalikan Fungsi Kunyah, Estetik, dan Fungsi Bicara.",
+        "description": "Gigi tiruan merupakan pengganti fungsi gigi yang hilang untuk mengembalikan fungsi kunyah, estetik, dan fungsi bicara.",
+        "subTitle": "Manfaat gigi tiruan lepasan",
+        "descriptionSubTitle": [
+          {
+            "text": "Manfaat kecantikan: Gigi tiruan mengantikan gigi yang telah hilang, untuk menghindari pergeseran lebih lanjut dari gigi asli yang masih ada serta mendukung bentuk wajah, sehingga tidak terlihat kempot. Gigi tiruan mampu memberikan bentuk asli dari pipi dan mulut, mengembalikan senyum Anda dan memberikan penampilan yang lebih muda."
+          },
+          {
+            "text": "Manfaat fungsi bicara: Gigi tiruan memberikan kemampuan lisan yang maksimum bagi pasien, termasuk kemampuan berbicara yang lebih baik dan tentunya mutu komunikasi yang lebih baik."
+          },
+          {
+            "text": "Manfaat fungsi kunyah: Pendistribusian beban kunyah menjadi  merata pada seluruh jaringan gigi dan tulang rahang karena adanya bantuan dari gigi tiruan tersebut. Gigi tiruan merupakan pengganti fungsi gigi yang hilang untuk mengembalikan fungsi kunyah, estetik, dan fungsi bicara."
+          }
+        ],
+        "manfaat": [
+          {
+            "title": "Proses mendapatkan gigi tiruan",
+            "description": "Gigi tiruan dibuat menurut pesanan. Setelah yakin bahwa gigi dan gusi Anda berada dalam kondisi yang sehat, dokter gigi akan mengambil cetakan dari gigi Anda dengan menggunakan dempul gigi atau menggunakan mesin digital. Gigi tiruan dibuat berdasarkan cetakan gigi anda untuk menentukan bentuk, jumlah, warna gigi serta tampilannya yang akan disesuaikan dengan bentuk gigi yang masih ada dan bentuk rahang anda. Setelah penyelesaian pada model gigi, gigi tiruan akan dipasangkan pada mulut. Penyesuaian-penyesuaian akhir bisa dilakukan jika dibutuhkan."
+          },
+          {
+            "title": "Merawat gigi tiruan",
+            "description": "Setelah gigi tiruan dikenakan, pasien disarankan untuk merawat gigi dan gusi mereka secara tepat. Seperti layaknya gigi asli, gigi tiruan juga perlu disikat dua kali sehari. Walaupun gigi tiruan tidak rentan/mudah rusak, timbunan karang gigi dapat menyebabkan masalah pada gusi serta membuat nafas tidak sedap. Setelah jangka waktu penggunaan tertentu, gigi tiruan perlu untuk disesuaikan, dirubah atau dibuat ulang karena penggunaan yang wajar. Kunjungan ke dokter gigi yang teratur tiap 6 bulan sekali juga sebaiknya dilakukan, sehingga dokter gigi Anda dapat memantau secara teratur ketepatan gigi tiruan yang digunakan dan juga memeriksa tanda-tanda dari masalah-masalah gigi."
+          }
+        ]
+      },
+      {
+        "imageDekstop": "/images/gigitiruancomp_img_url.png",
+        "imageMobile": "/images/gigitiruancompmb_img_url.png"
+      },
+      {
+        "title": "Jenis Gigi Tiruan Lepasan",
+        "description": " Dapatkan senyum sempurna dengan Gigi tiruan! Kami menawarkan berbagai jenis behel yang disesuaikan dengan kebutuhan dan preferensi Anda.",
+        "type": [
+          {
+            "image": "/images/framedenture_img_url.png",
+            "title": "Frame Denture",
+            "description": [
+              {
+                "title": "Kelebihan",
+                "description": [
+                  {
+                    "text": "Kuat menanggung beban kunyah yang besar."
+                  },
+                  {
+                    "text": "Cocok untuk kasus kehilangan gigi banyak yang berdampingan."
+                  },
+                  {
+                    "text": "Penyanggahnya dibuat secara presisi, sehingga lebih stabil, dan lebih tipis."
+                  }
+                ]
+              },
+              {
+                "title": "Kekurangan",
+                "description": [
+                  {
+                    "text": "Estetika kurang, walaupun logam yang kelihatan hanya dibagian penyangga."
+                  },
+                  {
+                    "text": "Lebih mahal harganya dibanding bahan acrylic dan valplast.`"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "image": "/images/gigitiruan_img_url.png",
+            "title": "Gigi Tiruan Akrilik",
+            "description": [
+              {
+                "title": "Kelebihan",
+                "description": [
+                  {
+                    "text": "Paling murah dari seluruh jenis gigi tiruan."
+                  },
+                  {
+                    "text": "Cocok untuk kasus kehilangan gigi seluruhnya."
+                  }
+                ]
+              },
+              {
+                "title": "Kekurangan",
+                "description": [
+                  {
+                    "text": "Tipe gigi tiruan ini bahannya kaku dan menggunakan penyangga dari bahan kawat, sehingga suka nempel makanan diantara kawat dan gigi, dan akhirnya merusak gigi penyangga yang sehat."
+                  },
+                  {
+                    "text": "Pasien harus apik dalam menjaga dan merawat gigi tiruan, karena harus sering-sering dibersihkan dan gampang patah kalau jatuh."
+                  },
+                  {
+                    "text": "Berubah warna jadi kecoklatan setelah gigi palsu berusia 1 tahun lebih."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "image": "/images/valpast_img_url.png",
+            "title": "Gigi Tiruan Valpast",
+            "description": [
+              {
+                "title": "Kelebihan",
+                "description": [
+                  {
+                    "text": "Tanpa penyangga kawat."
+                  },
+                  {
+                    "text": "Penyangganya sewarna gusi, sehingga tidak kelihatan adanya kawat dan estetika lebih bagus dari acrylic maupun frame denture."
+                  },
+                  {
+                    "text": "Bahan gigi tiruan ini lebih elastis dan lentur, sehingga tidak patah kalaupun jatuh."
+                  }
+                ]
+              },
+              {
+                "title": "Kekurangan",
+                "description": [
+                  {
+                    "text": "Tidak dapat menanggung beban kunyah yang besar."
+                  },
+                  {
+                    "text": "Tidak cocok untuk mengganti kehilangan lebih dari 3 gigi yang berdampingan, karena akan mempercepat resorbsi tulang alveolar."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/gigitiruantesti_img_url.png",
+        "background": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "TIRUAN PERMANEN",
+    "slug": "gigi-tiruan-permanent",
+    "service": "Pelayanan",
+    "title": "Gigi Tiruan Permanen",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "price": "Rp 1.500.000",
+    "type": "",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/tiruanpermanen_img_url.png",
+    "backgroundMobile": "/images/tiruanpermanenmb_img_url.png",
+    "content": [
+      {
+        "image": "/images/homepermanen_img_url.png",
+        "title": "Tujuan dan Manfaat Pemasangan Gigi Tiruan Permanen",
+        "description": "Pemasangan gigi tiruan permanen mempunyai tujuan dan fungsi yang sama seperti gigi tiruan lepasan, namun memiliki beberapa kelebihan yang menjadi pertimbangan, yaitu:",
+        "subTitle": "",
+        "descriptionSubTitle": [
+          {
+            "title": "1. Lebih nyaman",
+            "description": "Manfaat yang pertama adalah lebih nyaman, seolah-olah sudah menjadi bagian dari tubuh Anda. Gigi tiruan permanen ini dipasang di dalam gusi sehingga tidak akan bisa dilepas maupun dipasang oleh pasien sendiri. Gigi tiruan permanen hanya bisa dilepas oleh dokter gigi. Tidak perlu takut lagi gigi tersebut longgar maupun lepas karena dipasang secara permanen. Anda akan merasa gigi tiruan tersebut sama seperti halnya gigi asli."
+          },
+          {
+            "title": "2. Lebih tahan lama",
+            "description": "Manfaat selanjutnya dari gigi tiruan permanen adalah lebih tahan lama jika dibandingkan dengan gigi tiruan lepasan. Dengan perawatan yang baik dan rutin gigi tiruan ini bisa bertahan seumur hidup. Gigi tiruan ini juga tidak akan mengganggu gigi yang lain."
+          },
+          {
+            "title": "3. Warna gigi lebih bagus dan alami",
+            "description": "Karena terbuat dari bahan yang lebih bagus dan kuat, warna gigi tiruan permanen juga akan terlihat jauh lebih baik dan lebih alami dibandingkan dengan gigi tiruan lepasan."
+          },
+          {
+            "title": "4. Perawatan lebih mudah",
+            "description": "Anda tidak perlu capek lagi untuk melepas-lepas gigi tiruan, ketika akan menyikat gigi. Hanya cukup menyikat gigi seperti biasa saja bila Anda memilih untuk memasang gigi tiruan permanen."
+          },
+          {
+            "title": "5. Tidak ada resiko hilang",
+            "description": "Karena selalu menempel permanen pada rongga mulut dan tidak dilepas-lepas, maka gigi tiruan permanen sangatlah menguntungkan bagi pasien yang pelupa dan tidak telaten."
+          }
+        ]
+      },
+      {
+        "imageDekstop": "/images/galeritiruan_img_url.png",
+        "imageMobile": "/images/galeritiruanmb_img_url.png"
+      },
+      {
+        "title": "Jenis Gigi Tiruan Permanen",
+        "description": " Dapatkan senyum sempurna dengan Gigi tiruan! Kami menawarkan berbagai jenis behel yang disesuaikan dengan kebutuhan dan preferensi Anda.",
+        "type": [
+          {
+            "image": "/images/bridgeacrilyc_img_url.png",
+            "title": "Crown & Bridge Acrylic",
+            "description": [
+              {
+                "title": "Kelebihan",
+                "description": [
+                  {
+                    "text": "Harganya paling murah dari jenis bahan crown lain."
+                  },
+                  {
+                    "text": "Estetikanya cukup baik."
+                  }
+                ]
+              },
+              {
+                "title": "Kekurangan",
+                "description": [
+                  {
+                    "text": "Tidak kuat menahan beban kunyah- Usia"
+                  },
+                  {
+                    "text": "Crown biasanya tidak lama dan harus diganti lagi antara 3-5 tahun."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "image": "/images/metalporcelain_img_url.png",
+            "title": "Crown Metal Porcelain",
+            "description": [
+              {
+                "title": "Kelebihan",
+                "description": [
+                  {
+                    "text": "Dapat menahan daya kunyah yang sangat kuat sehingga lebih awet."
+                  }
+                ]
+              },
+              {
+                "title": "Kekurangan",
+                "description": [
+                  {
+                    "text": "Warna logam dibagian dalam membuat kadang munculnya bayangan hitam dibagian cervical."
+                  },
+                  {
+                    "text": "Bila lapisan porcelainnya pecah, maka akan kelihatan warna logam yang abu-abu dan kelihatan kotor /jelek."
+                  },
+                  {
+                    "text": "Tidak cocok untuk pasien yang alergi logam."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "image": "/images/bridgeZirconia_img_url.png",
+            "title": "Crown & Bridge Zirconia",
+            "description": [
+              {
+                "title": "Kelebihan",
+                "description": [
+                  {
+                    "text": "Estetika Bagus"
+                  },
+                  {
+                    "text": "Lebih nyaman, anti alergi."
+                  },
+                  {
+                    "text": "Kuat dan dapat menahan daya kunyah yang besar tanpa memakai lapisan logam."
+                  }
+                ]
+              },
+              {
+                "title": "Kekurangan",
+                "description": [
+                  {
+                    "text": "Paling mahal dibanding bahan crown lain."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "image": "images/bridgeporcelain_img_url.png",
+            "title": "Crown & Bridge Porcelain",
+            "description": [
+              {
+                "title": "Kelebihan",
+                "description": [
+                  {
+                    "text": "Estetikanya sangat bagus"
+                  },
+                  {
+                    "text": "Paling cocok untuk mengganti gigi-gigi yang hilang atau rusak dibagian depan (anterior) yang memerlukan estetika bagus."
+                  }
+                ]
+              },
+              {
+                "title": "Kekurangan",
+                "description": [
+                  {
+                    "text": "Lebih mahal dari bahan metal porcelain dan acrylic."
+                  },
+                  {
+                    "text": "Tidak cocok untuk menahan beban kunyah yang besar (bagian geraham)."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/coment_img_url.png",
+        "background": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "BLEACHING",
+    "slug": "bleaching",
+    "service": "Pelayanan",
+    "title": "Bleaching",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA!*harga mulai dari",
+    "price": "Rp 3.000.000",
+    "type": "Seluruh Gigi",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/bleachingdekstop_img_url.png",
+    "backgroundMobile": "/images/bleachingbgmobile_img_url.png",
+    "content": [
+      {
+        "image": "/images/bleachingbgmob_img_url.png",
+        "title": "Hanya Dengan Melakukan Bleaching, Gigi Anda Akan Terlihat Lebih Putih, Cerah, dan Akan Membuat Anda Lebih Percaya Diri.",
+        "description": "Bleaching gigi adalah proses pemutihan gigi menggunakan zat hidrogen peroksida atau karbamid peroksida. Perawatan gigi ini cocok dilakukan untuk orang-orang yang mengalami masalah gigi kuning atau noda akibat pengaruh makanan atau minuman.",
+        "subTitle": "Apa manfaat bleaching gigi?",
+        "descriptionSubTitle": [
+          {
+            "title": "",
+            "description": [
+              {
+                "text": "Manfaat utama bleaching gigi itu adalah untuk mencerahkan serta memutihkan gigi. Perawatan ini dapat membantu menghilangkan noda pada gigi. Efek gigi putih karena bleaching, gigi ini biasanya mampu bertahan selama 1-3 tahun. Bisa juga lebih cepat atau lebih lambat, hal itu tergantung dari jenis makanan yang Anda konsumsi setelah melakukan bleaching."
+              },
+              {
+                "text": "Jangan khawatir jika gigi Anda berangsur-angsur kembali menguning. Karena dapat melakukan bleaching ulang supaya gigi kembali putih dan cerah seperti semula. Kondisi apa yang tidak dapat diperbaiki dengan bleaching gigi? Proses pemutihan gigi dengan bleaching dapat dilakukan oleh siapa saja, terutama yang ingin mencerahkan warna gigi tanpa keluhan gigi sensitif."
+              }
+            ],
+            "note": [
+              {
+                "title": "Perawatan gigi ini tidak dapat dilakukan apabila memiliki kondisi seperti berikut:",
+                "description": [
+                  {
+                    "text": "Masalah gigi pasien terlalu rumit, terdapat penyakit gusi, atau ada perubahan posisi gusi"
+                  },
+                  {
+                    "text": "Memiliki dentin (tulang gigi) yang retak atau terekspos"
+                  },
+                  {
+                    "text": "Ibu hamil atau menyusui"
+                  }
+                ],
+                "text": "Jika memiliki kondisi di atas, Anda mungkin bisa mempertimbangkan untuk perawatan veneer sebagai pilihan lain dalam memutihkan gigi. Meski begitu, Anda tetap perlu berkonsultasi dengan dokter terlebih dahulu ya…"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "imageDekstop": "/images/bleachingdeks_img_url.png",
+        "imageMobile": "/images/bleachingmb_img_url.png"
+      },
+      {},
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/coment_img_url.png",
+        "background": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "TAMBALAN ELASTIS",
+    "slug": "tambalan-elastis",
+    "service": "Pelayanan",
+    "title": "Tambalan Elastis",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "price": "Rp 400.000/Gigi*",
+    "type": "Penambalan Gigi Lubang Kecil",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/tambalelastisbg_img_url.png",
+    "backgroundMobile": "/images/tambalanbgmobile_img_url.png",
+    "content": [
+      {
+        "image": "/images/masktambalan_img_url.png",
+        "title": "Penambalan Gigi Estetik tidak Hanya Berfungsi untuk Memperbaiki Gigi yang Berlubang Tetapi Juga untuk Mengembalikan Fungsi Estetik.",
+        "description": [
+          {
+            "text": "Gigi berlubang dapat menimbulkan masalah bagi kesehatan kita, mulai dari rasa sakit yang sering muncul dan mengganggu kita, maupun hingga menimbulkan penyakit yang berpengaruh terhadap kesehatan kita secara umum."
+          },
+          {
+            "text": "Dengan adanya gigi berlubang maka sisa makanan mudah sekali terselip dan sulit dibersihkan sehingga seringkali menimbulkan bau mulut bahkan bengkak pada gusi disekitar gigi kita. Gigi yang berlubang sebaiknya segera dilakukan penambalan walaupun terkadang masih belum terasa sakit karena semakin lama kita menunda perawatan, maka lubang di gigi tersebut akan semakin besar. Lubang gigi tidak dapat menutup sendiri hanya dengan kita menyikat gigi secara bersih."
+          },
+          {
+            "text": "Saat ini bahan tambalan gigi sudah banyak berkembang. Pernahkah anda memperhatikan warna tambalan yang ada pada gigi anda? Apakah anda puas dengan warna tambalan tersebut? Seringkali kita merasa tidak puas karena kita melihat warna hitam pada gigi kita dikarenakan tambalan logam yang ada."
+          },
+          {
+            "text": "Tambalan logam seringkali terlihat jelas ketika kita tertawa lebar dan terlihat kurang baik secara estetik. Tambalan logam tidak hanya kurang bagus secara estetik tetapi terkadang juga berbahaya bagi tubuh kita, hal ini disebabkan karena dalam proses pembuatannya menggunakan bubuk amalgam (logam) dan merkuri."
+          },
+          {
+            "text": "Di Passion Dental Care kami menawarkan prosedur penambalan gigi estetik. Penambalan gigi estetik tidak hanya berfungsi untuk memperbaiki gigi yang berlubang tetapi juga untuk mengembalikan fungsi estetik dari gigi tersebut. Penambalan gigi estetik merupakan tehnik penambalan gigi yang aman karena tidak menggunakan merkuri. Penambalan gigi dilakukan menggunakan bahan resin komposit sehingga warna dapat disesuaikan warna gigi asli. Dengan menggunakan tehnik penambalan gigi estetik keindahan warna gigi asli anda dapat dikembalikan sealami mungkin. Segera kunjungi kami untuk dapatkan kembali senyum indah dan sehat anda."
+          }
+        ],
+        "subTitle": "",
+        "descriptionSubTitle": ""
+      },
+      {
+        "imageDekstop": "/images/tambaldekstop_img_url.png",
+        "imageMobile": "/images/tambalmobile_img_url.png"
+      },
+      {},
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/tambalancoment_img_url.png",
+        "background": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "GUM LIFTING",
+    "slug": "gum-lifting",
+    "service": "Pelayanan",
+    "title": "Gum Lifting",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "price": "Rp 250.000/Gigi*",
+    "type": "",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/gumbg_img_url.png",
+    "backgroundMobile": "/images/gumbgmobile_img_url.png",
+    "content": [
+      {
+        "image": "/images/gummobgroup_img_url.png",
+        "title": "Gum Lifting: Solusi Memperbaiki Estetika Gigi Anda",
+        "description": "Struktur gigi dan gusi pastinya sangat berpengaruh pada penampilan. Masalahnya, ada saja kondisi kurang menguntungkan yang membuat Anda kurang percaya diri, misalnya ukuran gigi yang terlihat terlalu kecil atau jaringan gusi yang terlalu rendah. Jika Anda salah satu yang mengalami masalah tersebut, gum lifting bisa menjadi salah satu solusi.",
+        "subTitle": "Manfaat Melakukan Gum Lifting",
+        "descriptionSubTitle": "",
+        "manfaat": [
+          {
+            "title": "1. Gigi Tampak Lebih Sehat",
+            "description": "Gigi yang tampak terlalu pendek karena tertutup gusi akan menimbulkan kesan kurang sehat. Dengan menjalani gum lifting, gusi akan diperbaiki sehingga terlihat sehat dan natural. Selain memperbaiki penampilan, cara ini juga bisa mengatasi berbagai masalah periodontal sehingga penampilan gigi tampak sehat."
+          },
+          {
+            "title": "2. memperbaiki Senyuman",
+            "description": "Masalah pada gigi dan gusi mungkin membuat senyum Anda terlihat asimetris dan kurang membuat percaya diri. Dengan perbaikan bentuk gusi, siapa pun bisa mengatasi masalah ini dan menciptakan senyum yang lebih menawan."
+          },
+          {
+            "title": "3. Mengatasi Masalah Gummy Smile",
+            "description": "Gummy smile adalah kondisi di mana gusi terlihat mendominasi bagian mulut. Hal ini mungkin akan menimbulkan rasa tidak percaya diri. Namun semua bisa Anda atasi dengan prosedur gum lifting."
+          },
+          {
+            "title": "4. Memperbaiki Penampilan Gigi",
+            "description": "Prosedur ini dimaksudkan untuk membuat gigi tampak lebih panjang dan penuh. Anda bisa mendapatkan hasilnya secara instan dan menampilkan senyum yang jauh lebih menawan tanpa kesulitan."
+          },
+          {
+            "title": "5. Prosedurnya Sederhana",
+            "description": "Di awal kemunculannya, gum lifting memang proses yang rumit karena melibatkan berbagai alat. Namun sekarang, prosedurnya sangat sederhana karena dokter menggunakan teknologi laser yang telah dinyatakan aman oleh FDA. Prosesnya pun mudah, cepat, dan tanpa reaksi pembengkakan."
+          },
+          {
+            "title": "6. Tidak Perlu Recovery Time",
+            "description": "Setelah operasi, pasien hanya perlu menggunakan obat-obatan penghilang rasa sakit gigi, dan kemudian kembali beraktivitas seperti biasa."
+          }
+        ]
+      },
+      {
+        "imageDekstop": "/images/gumgroup_img_url.png",
+        "imageMobile": "/images/gumgroup_img_url.png"
+      },
+      {},
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/gumcoment_img_url.png",
+        "background": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "SCALING",
+    "slug": "scaling",
+    "service": "Pelayanan",
+    "title": "Scaling & Dental Spa",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "price": "Rp 650.000",
+    "type": "/Rahang*",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/scalingbgdeks_img_url.png",
+    "backgroundMobile": "/images/scalingbgmob_img_url.png",
+    "content": [
+      {
+        "image": "/images/scalingmask_img_url.png",
+        "title": "Scaling & Dental Spa Akan Membantu Membersihkan dan Mengangkat Karang Gigi yang Sudah Menumpuk",
+        "description": "Karang gigi yang tidak dibersihkan bisa menyebabkan bercak coklat, hijau dan hitam pada gigi, gingivitis atau peradangan pada gigi dan gusi, serta gigi goyang. Gusi akan mengalami pendarahan ketika menyikat gigi. Bahkan pendarahan itu bisa terjadi secara tiba-tiba. Jika pendarahan ini tidak ditangani dengan baik, akan berlanjut pada kondisi periodontitis, yaitu rusaknya tulang penyanggah gigi, dimana peradangan telah menyebar sampai ke akar gigi serta bisa menyebabkan gigi bisa tanggal dengan sendirinya.",
+        "subTitle": "Apa sih perbedaan Scaling dan Dental Spa?",
+        "descriptionSubTitle": "",
+        "manfaat": [
+          {
+            "title": "Fungsi dan Manfaat Scaling",
+            "description": "Manfaat utama dari tindakan ini adalah membersihkan karang gigi. Karang gigi yang telah keras dan menempel cukup lama tidak bisa dibersihkan hanya dengan menyikat gigi. Selain memiliki manfaat untuk membersihkan karang gigi yang menempel, scaling gigi juga memiliki manfaat lain, antara lain:",
+            "manfaat": [
+              {
+                "title": "1. Mengatasi Bau Mulut",
+                "description": "Karang gigi yang menumpuk menjadi tempat bakteri penyebab bau mulut berkembang. Jika hal ini dibiarkan, maka dapat menyebabkan bau mulut. Oleh karena itu, melakukan scaling bisa menjadi solusi untuk mengatasi bau mulut."
+              },
+              {
+                "title": "2. Menjaga Kesehatan Gusi",
+                "description": "Karang gigi yang terlalu lama menempel dan mengeras pada permukaan gigi dapat menyebabkan radang gusi. Jika tidak segera ditangani, radang gusi bisa semakin parah dan dapat merusak gigi serta jaringan lainnya. Dengan melakukan pembersihan ini, karang pada gigi Anda akan bersih, sehingga mencegah munculnya masalah pada gusi."
+              },
+              {
+                "title": "3. Mencegah Risiko Gigi Copot",
+                "description": "Gigi berkarang dapat menyebabkan gigi copot dengan sendirinya. Pasalnya, karang gigi yang menumpuk menjadi tempat bakteri tumbuh. Akibatnya, bakteri akan merusak jaringan pada gigi dan menyebabkan gigi tanggal. Dengan melakukan scaling rutin, Anda akan mendapatkan manfaat terhindar dari gigi tanggal."
+              },
+              {
+                "title": "4. Warna Gigi Tampak Lebih Cerah",
+                "description": "Karang gigi yang menumpuk akan menyebabkan gigi terlihat kuning. Oleh karena itu, dengan melakukan scaling rutin, karang gigi yang menumpuk akan terangkat dan membuat warna gigi tampak lebih cerah."
+              }
+            ]
+          },
+          {
+            "title": "Fungsi dan Manfaat Dental Spa",
+            "description": "Manfaat Dental Spa untuk memberikan perawatan gigi yang menggabungkan perawatan gigi konvensional dengan nuansa relaksasi ala spa. Pengalaman yang lebih nyaman dan menyenangkan bagi pasien, terutama yang merasa cemas atau takut saat periksa ke dokter gigi.",
+            "manfaat": [
+              {
+                "title": "1. Mengurangi Rasa Takut ke Dokter Gigi (Dental Phobia)",
+                "description": "Banyak orang merasa takut atau tidak nyaman saat harus periksa gigi. Dental spa hadir untuk mengubah pengalaman tersebut menjadi sesuatu yang menyenangkan dan menenangkan. "
+              },
+              {
+                "title": "2. Meningkatkan Pengalaman dan Kepuasan Pasien",
+                "description": "Perawatan gigi di dental spa tidak hanya fokus pada hasil, tapi juga proses. Pasien tidak lagi merasa seperti sedang “berobat”, melainkan seperti sedang memanjakan diri."
+              },
+              {
+                "title": "3. Perawatan Gigi dan Estetika Sekaligus",
+                "description": "Layanan dental spa biasanya mencakup pembersihan karang gigi (scaling), polishing (menghaluskan permukaan gigi), teeth whitening, hingga perawatan gusi."
+              },
+              {
+                "title": "4. Meningkatkan Kepercayaan Diri Melalui Senyum yang Lebih Cerah",
+                "description": "Senyum adalah aset penting dalam komunikasi dan penampilan. Gigi yang putih dan sehat mampu meningkatkan kepercayaan diri seseorang secara signifikan."
+              },
+              {
+                "note": "Untuk kamu yang  ingin mendapatkan kebersihan gigi yang  maksimal, kamu wajib memilih dental  spa"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "imageDekstop": "/images/scalinggroup_img_url.png",
+        "imageMobile": "/images/scalinggroupmob_img_url.png"
+      },
+      {
+
+      },
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/scalingcoment_img_url.png",
+        "background": "/images/Background.png"
+      }
+
+    ]
+  }
 ]

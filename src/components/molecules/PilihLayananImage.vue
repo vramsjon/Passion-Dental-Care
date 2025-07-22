@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-3 place-items-center px-4">
-    <RouterLink to="/venner-gigi">
+    <RouterLink to="/layanan/venner-gigi">
       <div
         class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
       >
@@ -12,60 +12,75 @@
       </div>
     </RouterLink>
 
-    <div
-      class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
-    >
-      <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/2.png" />
-      <HeadingBlueToska>Behel Gigi</HeadingBlueToska>
-      <TeksBlueToska>
-        Merapikan gigi dengan menggerakkan gigi secara perlahan sampai pada posisi ideal
-      </TeksBlueToska>
-    </div>
-    <div
-      class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
-    >
-      <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/3.png" />
-      <HeadingBlueToska>Gigi Tiruan</HeadingBlueToska>
-      <TeksBlueToska>
-        Lebih dikenal dengan gigi palsu, berfungsi untuk menggantikan gigi yaang hilang
-      </TeksBlueToska>
-    </div>
-    <div
-      class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
-    >
-      <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/4.png" />
-      <HeadingBlueToska>Bleaching</HeadingBlueToska>
-      <TeksBlueToska>
-        Teeth Whitening atau merubah warna gigi dari kuning menjadi lebih putih dan cerah
-      </TeksBlueToska>
-    </div>
-    <div
-      class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
-    >
-      <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/5.png" />
-      <HeadingBlueToska>Tambalan Estetis</HeadingBlueToska>
-      <TeksBlueToska>
-        Menambal gigi berlubang atau rusak dengan bahan terbaik sehingga tampak alami
-      </TeksBlueToska>
-    </div>
-    <div
-      class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
-    >
-      <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/6.png" />
-      <HeadingBlueToska>Gum Lifting</HeadingBlueToska>
-      <TeksBlueToska>
-        Mmemperbaiki gusi untuk memperoleh bentuk gigi yang lebih simetris dan natural
-      </TeksBlueToska>
-    </div>
-    <div
-      class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
-    >
-      <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/7.png" />
-      <HeadingBlueToska>Scaling dan Dental Spa</HeadingBlueToska>
-      <TeksBlueToska>
-        Pembersihan karang gigi atau penumpukan plak pada celah antara gigi dan gusi
-      </TeksBlueToska>
-    </div>
+    <RouterLink to="/layanan/behel-gigi">
+      <div
+        class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
+      >
+        <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/2.png" />
+        <HeadingBlueToska>Behel Gigi</HeadingBlueToska>
+        <TeksBlueToska>
+          Merapikan gigi dengan menggerakkan gigi secara perlahan sampai pada posisi ideal
+        </TeksBlueToska>
+      </div>
+    </RouterLink>
+
+    <RouterLink to="/layanan/gigi-tiruan">
+      <div
+        class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
+      >
+        <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/3.png" />
+        <HeadingBlueToska>Gigi Tiruan</HeadingBlueToska>
+        <TeksBlueToska>
+          Lebih dikenal dengan gigi palsu, berfungsi untuk menggantikan gigi yaang hilang
+        </TeksBlueToska>
+      </div>
+    </RouterLink>
+    <RouterLink to="/layanan/bleaching">
+      <div
+        class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
+      >
+        <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/4.png" />
+        <HeadingBlueToska>Bleaching</HeadingBlueToska>
+        <TeksBlueToska>
+          Teeth Whitening atau merubah warna gigi dari kuning menjadi lebih putih dan cerah
+        </TeksBlueToska>
+      </div>
+    </RouterLink>
+
+    <RouterLink to="/layanan/tambalan-elastis">
+      <div
+        class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
+      >
+        <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/5.png" />
+        <HeadingBlueToska>Tambalan Estetis</HeadingBlueToska>
+        <TeksBlueToska>
+          Menambal gigi berlubang atau rusak dengan bahan terbaik sehingga tampak alami
+        </TeksBlueToska>
+      </div>
+    </RouterLink>
+    <RouterLink to="/layanan/gum-lifting">
+      <div
+        class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
+      >
+        <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/6.png" />
+        <HeadingBlueToska>Gum Lifting</HeadingBlueToska>
+        <TeksBlueToska>
+          Mmemperbaiki gusi untuk memperoleh bentuk gigi yang lebih simetris dan natural
+        </TeksBlueToska>
+      </div>
+    </RouterLink>
+    <RouterLink to="/layanan/scaling">
+      <div
+        class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
+      >
+        <Image class="max-w-[208px] w-full h-auto object-contain" src="/images/7.png" />
+        <HeadingBlueToska>Scaling dan Dental Spa</HeadingBlueToska>
+        <TeksBlueToska>
+          Pembersihan karang gigi atau penumpukan plak pada celah antara gigi dan gusi
+        </TeksBlueToska>
+      </div>
+    </RouterLink>
+
     <div
       class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
     >

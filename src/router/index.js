@@ -25,12 +25,14 @@ const routes = [
     path: '/layanan',
     name: LayananPage,
     component: LayananPage,
+    
   },
   {
-    path: '/venner-gigi',
-    name:VennerGigiPages,
+    path:'/layanan/:slug',
+    name: VennerGigiPages,
     component: VennerGigiPages,
-  }
+  },
+  
 ]
 
 const router = createRouter({
