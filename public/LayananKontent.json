@@ -1,62 +1,20 @@
 [
-  {
-    "code": "VENNER GIGI",
-    "slug": "venner-gigi",
-    "service": "Pelayanan",
-    "title": "Venner Gigi",
-    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
-    "price": "Rp 600.000/ Gigi",
-    "type": "Venner Komposit*",
-    "icon": "/images/wallet_img_url.png",
-    "backgroundDekstop": "/images/vennerbg_img_url.png",
-    "backgroundMobile": "/images/vennerbgmobile_img_url.png",
-    "content": [
-      {
-        "image": "/images/vennermobile_img_url.png",
-        "title": "Bagaimana Venner Menciptakan Senyum Sempurna",
-        "description": "Perawatan yang satu ini sangatlah berguna untuk Anda yang menginginkan gigi yang rapi. Perawatan ini bertujuan untuk memperbaiki warna serta bentuk gigi Anda menjadi sesuai apa yang diinginkan. Veneer gigi akan menempel secara permanen, sedangkan bahan untuk veneer adalah resin dan porselen. Kondisi gigi yang biasanya di veneer adalah yang memiliki keadaan seperti patah, renggang dan juga perubahan warna pada gigi. Masa usia veneer gigi tergantung pada jenis veneer yang akan Anda gunakan. Semua bergantung dengan bagaimana Anda merawat kesehatan gigi setelah melakukan perawatan veneer.",
-        "subTitle": "Manfaat Venner",
-        "descriptionSubTitle": "Semua perawatan gigi yang Anda lakukan pasti memiliki manfaat, begitu juga dengan veneer gigi. Sama halnya behel gigi, veneer juga berguna untuk merapatkan gigi. Namun berbeda prosesnya, kalau behel biasanya digunakan untuk memperbaiki posisi gigi secara menyeluruh. Sedangkan veneer gigi bisa dilakukan hanya dengan satu bagian gigi saja. Veneer lebih dipilih karena mampu memberikan kesan natural pada gigi. ",
+    {
+        "judul": "Bagaimana Venner Menciptakan Senyum Sempurna",
+        "deskripsi": "Perawatan yang satu ini sangatlah berguna untuk Anda yang menginginkan gigi yang rapi. Perawatan ini bertujuan untuk memperbaiki warna serta bentuk gigi Anda menjadi sesuai apa yang diinginkan. Veneer gigi akan menempel secara permanen, sedangkan bahan untuk veneer adalah resin dan porselen. Kondisi gigi yang biasanya di veneer adalah yang memiliki keadaan seperti patah, renggang dan juga perubahan warna pada gigi. Masa usia veneer gigi tergantung pada jenis veneer yang akan Anda gunakan. Semua bergantung dengan bagaimana Anda merawat kesehatan gigi setelah melakukan perawatan veneer.",
+        "subjudul": "Manfaat Venner",
         "manfaat": [
-          {
-            "title": "1. Membuat warna gigi lebih putih dan cerah sesuai yang kamu inginkan",
-            "description": "Gigi yang tampak menguning pasti akan membuat Anda tidak percaya diri dibuatnya. Ingin gigi putih seperti para artis? Dengan perawatan veneer ini, gigi kamu akan dilapisi sehingga dapat menyesuaikan tingkat keputihan dan kecerahan yang anda inginkan."
-          },
-          {
-            "title": "2. Memperbaiki kerusakan gigi",
-            "description": "Kerusakan gigi bisa saja Anda alami seperti gigi patah, ataupun retak. Kondisi ini akan bisa ditangani dengan proses veneer gigi. Gigi Anda yang patah akibat kecelakaan saat berolahraga, ataupun saat berkendara akan bisa menjadi utuh kembali setelah melakukan veneer."
-          }
-        ],
-        "benefitDescription": "Itulah sejumlah manfaat venner gigi. Jika anda memutuskan ingin melakukan perawatan venner gigi ada baiknya melakukan konsultasi terlebih dahulu dengan dokter gigi"
-      },
-      {
-        "imageDekstop": "/images/vennerImg_img_url.png",
-        "imageMobile": "/images/vennermob_img_url.png"
-      },
-      {
-        "title": "Jenis Behel di Passioan Dental Care",
-        "description": " Dapatkan senyum sempurna dengan behel gigi! Kami menawarkan berbagai jenis behel yang disesuaikan dengan kebutuhan dan preferensi Anda.",
-        "type": [
-          {
-            "image": "/images/behelMetal_img_url.png",
-            "title": "Behel Metal",
-            "description": "Behel jenis ini adalah jenis yang paling sering digunakan dan paling murah harganya."
-          },
-          {
-            "image": "/images/behelMetal1_img_url.png",
-            "title": "Behel Ceramic",
-            "description": "Behel jenis ini sangat transparan dan tidak tampak seperti memakai behel. Cocok untuk kalian yang tidak suka dengan warna yang mencolok."
-          },
-          {
-            "image": "/images/behelMetal2_img_url.png",
-            "title": "Behel Self-ligating Damon",
-            "description": "Behel jenis ini tidak memakai karet seperti pada umumnya behel lain dan lebih cepat proses penyembuhannya. tidak terasa sakit saat pemasangan dan masa penyembuhan nya."
-          },
-          {
-            "image": "/images/behelMetal3_img_url.png",
-            "title": "Behel Klar Clear Aligner",
-            "description": "Behel jenis ini adalah jenis baru untuk merapikan gigi tanpa behel dan bening, sangat praktis dan nyaman dipakai. Dibuat dengan teknologi yang canggih khusus untuk pasien. Cocok untuk yang tidak mau terlihat menggunakan behel tapi tetep rapih."
-          }
+            {
+                "deskripsi": "Semua perawatan gigi yang Anda lakukan pasti memiliki manfaat, begitu juga dengan veneer gigi. Sama halnya behel gigi, veneer juga berguna untuk merapatkan gigi. Namun berbeda prosesnya, kalau behel biasanya digunakan untuk memperbaiki posisi gigi secara menyeluruh. Sedangkan veneer gigi bisa dilakukan hanya dengan satu bagian gigi saja. Veneer lebih dipilih karena mampu memberikan kesan natural pada gigi. "
+            },
+            {
+                "judul": "1. Membuat warna gigi lebih putih dan cerah sesuai yang kamu inginkan",
+                "deskripsi": "Gigi yang tampak menguning pasti akan membuat Anda tidak percaya diri dibuatnya. Ingin gigi putih seperti para artis? Dengan perawatan veneer ini, gigi kamu akan dilapisi sehingga dapat menyesuaikan tingkat keputihan dan kecerahan yang anda inginkan."
+            },
+            {
+                "judul": "2. Memperbaiki kerusakan gigi",
+                "deskripsi": "Kerusakan gigi bisa saja Anda alami seperti gigi patah, ataupun retak. Kondisi ini akan bisa ditangani dengan proses veneer gigi. Gigi Anda yang patah akibat kecelakaan saat berolahraga, ataupun saat berkendara akan bisa menjadi utuh kembali setelah melakukan veneer."
+            }
         ]
       },
       {
@@ -981,3 +939,7 @@
     ]
   }
 ]
+=======
+    }
+]
+>>>>>>> 617806239a862393bc880100b9cd83cfb988a568

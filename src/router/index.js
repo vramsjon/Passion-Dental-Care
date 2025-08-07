@@ -33,11 +33,10 @@ const routes = [
     path: '/layanan',
     name: LayananPage,
     component: LayananPage,
-    
   },
   {
-    path:'/layanan/:slug',
-    name: VennerGigiPages,
+    path: '/venner-gigi',
+    name:VennerGigiPages,
     component: VennerGigiPages,
   },
   {
@@ -75,7 +74,6 @@ const routes = [
     name: SurveyPage2,
     component: SurveyPage2
   }
-  
 ]
 
 const router = createRouter({

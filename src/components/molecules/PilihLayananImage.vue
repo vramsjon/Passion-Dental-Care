@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-3 place-items-center px-4">
-    <RouterLink to="/layanan/venner-gigi">
+    <RouterLink to="/venner-gigi">
       <div
         class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
       >
@@ -11,7 +11,6 @@
         </TeksBlueToska>
       </div>
     </RouterLink>
-
     <RouterLink to="/layanan/behel-gigi">
       <div
         class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"

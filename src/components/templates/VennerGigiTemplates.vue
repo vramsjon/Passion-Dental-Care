@@ -2,5 +2,5 @@
     <VennerGigiHero></VennerGigiHero>
 </template>
 <script setup>
-import VennerGigiHero from '../organisms/DetailLayanan.vue';
+import VennerGigiHero from '../organisms/VennerGigiHero.vue';
 </script>
