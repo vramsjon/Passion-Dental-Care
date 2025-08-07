@@ -12,7 +12,7 @@
           <div class="flex">
             <Heading2 class="text-nowrap">{{ layanan.price }}</Heading2>
           </div>
-          <Paragraph3 class="text-end">{{ layanan.type }}</Paragraph3>
+          <Paragraph3 class="text-end text-nowrap">{{ layanan.type }}</Paragraph3>
         </div>
         <Image class="w-[75px] h-[75px]" :src="layanan.icon" />
       </div>
@@ -70,7 +70,7 @@ onMounted(async () => {
   layanan.value = data.find((item) => item.slug === route.params.slug)
 
   if (layanan.value) {
-    if (layanan.value.code === 'VENNER GIGI' || layanan.value.code === 'BLEACHING' || layanan.value.code === 'TAMBALAN ELASTIS' || layanan.value.code === 'GUM LIFTING' || layanan.value.code === 'SCALING'){
+    if (layanan.value.code === 'VENNER GIGI' || layanan.value.code === 'BLEACHING' || layanan.value.code === 'TAMBALAN ELASTIS' || layanan.value.code === 'GUM LIFTING' || layanan.value.code === 'SCALING' || layanan.value.code === 'CABUT GIGI' || layanan.value.code === 'IMPLAN GIGI' || layanan.value.code === 'GIGI BUNGSU' || layanan.value.code === 'SARAF GIGI' || layanan.value.code === 'GIGI ANAK' ){
       VennerGigi.value = true
     }else if (layanan.value.code === "BEHEL GIGI"){
       BehelGigi.value = true

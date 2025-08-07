@@ -1,0 +1,193 @@
+{
+  "text": "Temukan Lokasi Klinik Terdekat",
+  "title": "Passion Dental Care",
+  "backgroundDekstop": "/images/lokasibg_img_url.png",
+  "backgroudMobile": "",
+  "content": [
+    {
+      "slug": "cabang-gegerkalong",
+      "title": "Cabang Gegerkalong",
+      "address": "Jl. Sukahaji No.12, Sukarasa, Kec. Sukasari, Kota Bandung, Jawa Barat 40152",
+      "background": "/images/lokasibgcontent_img_url.png",
+      "schedule": [
+        {
+          "day": "Minggu",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Senin",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Selasa",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Rabu",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Kamis",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Jumat",
+          "time": "08.00-17.00"
+        },
+        {
+          "day": "Sabtu",
+          "time": "TUTUP"
+        }
+      ],
+      "image": "/images/galerilokasi1_img_url.png"
+    },
+    {
+      "slug": "cabang-sarijadi",
+      "title": "Cabang Sarijadi",
+      "address": "Jl Perintis No. 7, Sarijadi, Kec. Sukasari, Kota Bandung0812-1380-7090",
+      "background": "/images/lokasibgcontent_img_url.png",
+      "schedule": [
+        {
+          "day": "Minggu",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Senin",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Selasa",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Rabu",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Kamis",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Jumat",
+          "time": "08.00-17.00"
+        },
+        {
+          "day": "Sabtu",
+          "time": "TUTUP"
+        }
+      ],
+      "image": "/images/galerilokasi2_img_url.png"
+    },
+    {
+      "slug": "cabang-parongpong",
+      "title": "Cabang Lembang",
+      "address": "Komplek Villa Istana Bunga, Jl. Kolonel Masturi No. 6, Kec. Parongpong, Kab. Bandung Barat, Jawa Barat 40559",
+      "background": "/images/lokasibgcontent_img_url.png",
+      "schedule": [
+        {
+          "day": "Minggu",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Senin",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Selasa",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Rabu",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Kamis",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Jumat",
+          "time": "08.00-17.00"
+        },
+        {
+          "day": "Sabtu",
+          "time": "TUTUP"
+        }
+      ],
+      "image": "/images/galerilokasi3_img_url.png"
+    },
+    {
+      "slug": "cabang-ciwastra",
+      "title": "Cabang Buah Batu",
+      "address": "Jl. Ciwastra 99, Margasari, Kec. Buahbatu, Kota Bandung, Jawa Barat 40287",
+      "background": "/images/lokasibgcontent_img_url.png",
+      "schedule": [
+        {
+          "day": "Minggu",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Senin",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Selasa",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Rabu",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Kamis",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Jumat",
+          "time": "08.00-17.00"
+        },
+        {
+          "day": "Sabtu",
+          "time": "TUTUP"
+        }
+      ],
+      "image": "/images/galerilokasi4_img_url.png"
+    },
+    {
+      "slug": "cabang-cijerah",
+      "title": "Cabang Melong, Cijerah",
+      "address": "Jl. Bojong Raya No.101, Caringin, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40212",
+      "background": "/images/lokasibgcontent_img_url.png",
+      "schedule": [
+        {
+          "day": "Minggu",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Senin",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Selasa",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Rabu",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Kamis",
+          "time": "08.00-21.00"
+        },
+        {
+          "day": "Jumat",
+          "time": "08.00-17.00"
+        },
+        {
+          "day": "Sabtu",
+          "time": "TUTUP"
+        }
+      ],
+      "image": "/images/galerilokasi4_img_url.png"
+    }
+  ]
+}

@@ -41,17 +41,35 @@
             </div>
           </div>
         </div>
-
         <Paragraph2 v-else class="text-center">{{ vennerContent.descriptionSubTitle }}</Paragraph2>
       </div>
-
       <div v-for="(item, index) in vennerContent.manfaat" :key="index">
         <Heading2 class="text-center">{{ item.title }}</Heading2>
-        <Paragraph2 class="text-center">{{ item.description }}</Paragraph2>
+        <div>
+          <div v-if="ImplanGigi">
+            <ul
+              class="text-white list-disc pl-8"
+              v-for="(itemText, index) in item.description"
+              :key="index"
+            >
+              <li>{{ itemText.text }}</li>
+            </ul>
+          </div>
+          <div v-else-if="SarafGigi">
+            <div v-for="(itemText, index) in item.description" :key="index">
+              <Paragraph2>{{ itemText.text }}</Paragraph2>
+            </div>
+            <ul class="text-white list-disc ml-6" v-for="(itemText, index) in item.list" :key="index">
+              <li>{{ itemText.text }}</li>
+            </ul>
+          </div>
+          <Paragraph2 v-else class="text-center">{{ item.description }}</Paragraph2>
+        </div>
         <div v-if="Scaling">
           <div v-for="(itemText, index) in item.manfaat" :key="index">
             <div class="space-y-8">
               <Heading2 class="text-center">{{ itemText.title }}</Heading2>
+              <div></div>
               <Paragraph2 class="text-center">{{ itemText.description }}</Paragraph2>
             </div>
           </div>
@@ -75,6 +93,8 @@ const GigiTiruan = ref(false)
 const bleaching = ref(false)
 const TambalanElastis = ref(false)
 const Scaling = ref(false)
+const ImplanGigi = ref(false)
+const SarafGigi = ref(false)
 
 onMounted(async () => {
   const res = await fetch('/LayananKontent.json')
@@ -88,10 +108,14 @@ onMounted(async () => {
       GigiTiruan.value = true
     } else if (layanan.code === 'BLEACHING') {
       bleaching.value = true
-    } else if (layanan.code === 'TAMBALAN ELASTIS') {
+    } else if (layanan.code === 'TAMBALAN ELASTIS' || layanan.code === 'GIGI BUNGSU') {
       TambalanElastis.value = true
     } else if (layanan.code === 'SCALING') {
       Scaling.value = true
+    } else if (layanan.code === 'IMPLAN GIGI') {
+      ImplanGigi.value = true
+    } else if (layanan.code === 'SARAF GIGI') {
+      SarafGigi.value = true
     }
   }
 })

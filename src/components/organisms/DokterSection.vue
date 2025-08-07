@@ -108,6 +108,8 @@ import Button from '../atoms/Button.vue'
 import Teks2 from '../atoms/Teks2.vue'
 import { ref, onMounted, onUnmounted } from 'vue'
 
+import TimDokterService from '../../services/TimDokterService'
+
 const isLargeScreen = ref(window.innerWidth >= 1024)
 const handleResize = () => {
   isLargeScreen.value = window.innerWidth >= 1024
@@ -133,4 +135,16 @@ onMounted(async () => {
   description.value = data.description
   timDokter.value = data.timDokter
 })
+
+//implementasi API
+// onMounted(async () => {
+//   try {
+//     const data = await TimDokterService.getTimDokter()
+//     title.value = response.data.title
+//     description.value = response.data.description
+//     timDokter.value = response.data.timDokter
+//   } catch (error) {
+//     console.error('Error fetching Tim Dokter:', error)
+//   }
+// })  
 </script>

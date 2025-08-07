@@ -705,9 +705,7 @@
         "imageDekstop": "/images/scalinggroup_img_url.png",
         "imageMobile": "/images/scalinggroupmob_img_url.png"
       },
-      {
-
-      },
+      {},
       {
         "title": "Apa Kata Mereka?",
         "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
@@ -715,7 +713,271 @@
         "image": "/images/scalingcoment_img_url.png",
         "background": "/images/Background.png"
       }
-
+    ]
+  },
+  {
+    "code": "CABUT GIGI",
+    "slug": "cabut-gigi",
+    "service": "Pelayanan",
+    "title": "Cabut Gigi",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "price": "Rp 250.000",
+    "type": "/Gigi",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/cabutgigibg_img_url.png",
+    "backgroundMobile": "/images/cabutbgmobile_img_url.png",
+    "content": [
+      {
+        "image": "/images/cabutgigigroup_img_url.png",
+        "title": "Cabut gigi adalah prosedur untuk mencabut gigi yang bermasalah dan tidak bisa diperbaiki lagi dari gusi. Prosedur ini bisa dilakukan dengan cara sederhana atau dengan pembedahan. Cabut gigi sederhana dilakukan jika mahkota gigi yang akan dicabut terlihat atau tidak terhalang gusi.",
+        "description": "",
+        "subTitle": "Kondisi yang Diperlukan untuk Pencabutan Gigi",
+        "descriptionSubTitle": "",
+        "manfaat": [
+          {
+            "title": "Saraf Mati pada Gigi Berlubang",
+            "description": "Infeksi bakteri merupakan penyebab dari kondisi gigi berlubang. Jika tidak cepat ditangani, infeksi bisa melebar hingga ke lapisan gigi paling dalam yaitu saraf. Ini bisa menyebabkan kematian saraf gigi. Jika semakin parah dan tidak bisa lagi dirawat melalui perawatan saluran akar, pencabutan gigi menjadi jalan yang harus dilakukan."
+          },
+          {
+            "title": "Gigi Tidak Beraturan",
+            "description": "Susunan gigi tidak beraturan disebabkan oleh keterbatasan ruang di dalam rahang untuk menampung semua gigi. Saat menjumpai masalah ini, seorang dokter gigi akan menganjurkan pencabutan gigi untuk dipasangkan kawat gigi agar lebih rapi. Dilakukannya cabut gigi supaya rahang memiliki banyak ruang untuk bergeser, sehingga kawat gigi bisa terpasang. Masalah susunan gigi yang tidak beraturan pun akhirnya bisa teratasi."
+          },
+          {
+            "title": "Resiko Terinfeksi",
+            "description": "Ada kondisi yang bikin seseorang begitu rentan terhadap infeksi. Contohnya; ketika menjalani kemoterapi atau setelah transplantasi organ. Karenanya, agar terhindar dari resiko terinfeksi pada gigi berlubang, dilakukanlah pencabutan gigi."
+          },
+          {
+            "title": "Penyakit Gusi yang Parah",
+            "description": "Radang jaringan pada pendukung gigi dapat membuat rusaknya jaringan di sekitar gigi serta tulang penunjangnya. Jika dibiarkan terus-menerus, gigi dapat goyang sehingga tidak bisa melakukan fungsinya dengan normal. Kalau sudah begini, pencabutan gigi adalah cara yang paling tepat."
+          }
+        ]
+      },
+      {
+        "imageDekstop": "/images/cabutgroup_img_url.png",
+        "imageMobile": "/images/cabutmobgroup_img_url.png"
+      },
+      {},
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/cabutcoment_img_url.png",
+        "background": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "IMPLAN GIGI",
+    "slug": "implan-gigi",
+    "service": "Pelayanan",
+    "title": "Implan Gigi",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "price": "Rp 18.000.000",
+    "type": "Implan gigi Anterior",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/implanbg_img_url.png",
+    "backgroundMobile": "/images/implanbgmob_img_url.png",
+    "content": [
+      {
+        "image": "/images/maskimplan_img_url.png",
+        "title": "Implan gigi adalah prosedur penanaman akar gigi buatan",
+        "description": "yang berbentuk seperti baut pada rahang untuk menopang mahkota gigi buatan. Implan gigi pada umumnya terbuat dari logam khusus, seperti titanium. Implan gigi merupakan sekrup titanium yang ditanamkan pada rahang gigi yang berfungsi sebagai pengganti akar gigi yang hilang serta untuk menahan gigi palsu. Pemasangan implan gigi dapat dilakukan jika Anda memiliki gigi yang sudah  tanggal atau gigi ompong, namun tidak ingin menggunakan gigi palsu lepasan atau pasien yang tidak mau merusak gigi-gigi di sebelah bagian ompong.",
+        "subTitle": "",
+        "descriptionSubTitle": "",
+        "manfaat": [
+          {
+            "title": "Kelebihan Implan: ",
+            "description": [
+              {
+                "text": "Tidak harus mengecilkan gigi-gigi sebelahnya yang sehat."
+              },
+              {
+                "text": "Implan berdiri sendiri pada tulang rahang, sesuai dengan keadaan gigi yang seharusnya."
+              },
+              {
+                "text": "Lebih kuat dalam menahan beban kunyah, karena langsung disalurkan ke tulang rahang dan beban kunyah tidak terbagi ke gigi lain (tidak seperti ketika membuat bridge)."
+              },
+              {
+                "text": "Gigi implan tidak bisa mengalami proses caries, sehingga tidak akan berlubang."
+              }
+            ]
+          },
+          {
+            "title": "Kekurangan Implan",
+            "description": [
+              {
+                "text": "Membutuhkan waktu yang lama hingga selesai perawatannya dan gigi nya bisa digunakan, yaitu berkisar antara 3-6 bulan."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "imageDekstop": "/images/implangroup_img_url.png",
+        "imageMobile": "/images/implangroupmb_img_url.png"
+      },
+      {},
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/implancoment_img_url.png",
+        "background": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "GIGI BUNGSU",
+    "slug": "operasi-gigi-bungsu",
+    "service": "Pelayanan",
+    "title": "Operasi Gigi Bungsu",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "price": "Rp 2.000.000*",
+    "type": "Pencabutan Gigi Kasus Biasa (Kelas 1)",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/bungsubg_img_url.png",
+    "backgroundMobile": "/images/bungsubgmob_img_url.png",
+    "content": [
+      {
+        "image": "/images/bungsumask_img_url.png",
+        "title": "Apa itu Gigi Bungsu?",
+        "description": [
+          {
+            "text": "Operasi gigi bungsu adalah tindakan untuk mencabut gigi bungsu yang tumbuh di sudut belakang mulut bagian atas dan bawah. Operasi ini biasanya dilakukan ketika pertumbuhan gigi bungsu berpotensi menyebabkan masalah, seperti infeksi, gigi berlubang, atau kerusakan gigi dan tulang di sekitarnya."
+          },
+          {
+            "text": "Disebut gigi bungsu karena ini adalah gigi yang terakhir muncul. Biasanya pertumbuhan gigi bungsu terjadi di sekitar usia 17–25 tahun. Saat gigi bungsu tumbuh, beberapa orang mungkin akan mengalami rasa sakit yang tak tertahankan dan kesulitan untuk mengunyah makanan."
+          },
+          {
+            "text": "Gigi bungsu sering juga disebut sebagai gigi geraham ketiga. Jika gigi bungsu tumbuh normal dan tanpa gangguan, biasanya hal ini tidak perlu diatasi dengan operasi, melainkan dengan menjaga kebersihan gigi dan mulut."
+          },
+          {
+            "text": "Sayangnya, tidak semua orang mengalami pertumbuhan gigi bungsu yang normal. Gigi bungsu juga terkadang tumbuh hanya sebagian, miring ke depan atau ke belakang, melintang, atau tersangkut dengan gigi lainnya. Gigi bungsu yang tumbuh tidak normal ini disebut dengan impaksi gigi."
+          },
+          {
+            "text": "Saat impaksi gigi bungsu terjadi, Anda mungkin akan disarankan untuk menjalani operasi gigi bungsu. Meski begitu, tidak semua kasus impaksi gigi bungsu harus langsung dioperasi."
+          },
+          {
+            "text": "Impaksi gigi bungsu perlu diperiksa terlebih dahulu oleh dokter gigi. Jika impaksi gigi tidak mengganggu, biasanya Anda hanya perlu memeriksakan gigi secara rutin agar dokter bisa terus memantau kondisi impaksi gigi."
+          },
+          {
+            "text": "Ada beberapa gejala yang dapat menandakan bahwa gigi bungsu mengalami infeksi atau masalah kesehatan lainnya, antara lain gusi bengkak, bau mulut, sakit gigi, dan pada kasus tertentu adalah keluarnya nanah dari gusi atau gigi bungsu yang bermasalah."
+          }
+        ]
+      },
+      {
+        "imageDekstop": "/images/bungsugroup_img_url.png",
+        "imageMobile": "/images/bungsugroupmb_img_url.png"
+      },
+      {},
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/bungsucoment_img_url.png",
+        "background": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "SARAF GIGI",
+    "slug": "perawatan-saluran-saraf-gigi",
+    "service": "Pelayanan",
+    "title": "Perawatan Saluran Saraf Gigi",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "price": "Rp 200.000 - Rp 350.000",
+    "type": "per saluran akar gigi",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/sarafgigibg_img_url.png",
+    "backgroundMobile": "/images/sarafbgmob_img_url.png",
+    "content": [
+      {
+        "image": "/images/sarafmaskmb_img_url.png",
+        "title": "Memahami Seperti Apa itu Perawatan Saluran Akar Gigi",
+        "description": "Perawatan saluran akar gigi adalah perawatan yang bertujuan untuk mengatasi kerusakan pada gigi, dan menyembuhkan infeksi dan pembusukan pada daerah gigi. Saluran akar gigi sendiri adalah rongga di bagian tengah gigi yang berisi pembuluh darah dan saraf. Saraf-saraf ini memiliki fungsi sensorik untuk merasakan suhu panas dan suhu dingin pada makanan atau minuman yang masuk ke rongga mulut.",
+        "subTitle": "",
+        "descriptionSubTitle": "",
+        "manfaat": [
+          {
+            "title": "Tujuan dan Indikasi Perawatan Saluran Akar Gigi",
+            "description": [
+              {
+                "text": "Perawatan saluran akar gigi bertujuan untuk mengangkat pulpa yang terinfeksi bakteri, mencegah terjadinya infeksi berulang, dan menghindari perlunya cabut gigi. Selain itu, perawatan saluran akar gigi juga dapat dilakukan pada orang dengan kondisi berikut:"
+              }
+            ],
+            "list": [
+              {
+                "text": "Gigi berlubang (karies gigi) yang dalam dan tidak tertangani dengan baik"
+              },
+              {
+                "text": "Gigi patah atau mahkota gigi (enamel) rusak"
+              },
+              {
+                "text": "Cedera di gigi"
+              },
+              {
+                "text": "Infeksi di pulpa (pulpitis)"
+              }
+            ]
+          },
+          {
+            "title": "Proses Perawatan Saluran Akar Gigi",
+            "description": [
+              {
+                "text": "Gigi yang berlubang besar akan dibersihkan dan dirapikan hingga terlihat bagian saluran akar. Saluran akar gigi kemudian dibersihkan dengan alat khusus sampai ke ujung akar sehingga saraf gigi dan pembuluh darah yang non-vital dapat terambil beserta bakteri yang ada di sekitarnya. Selama prosedur perawatan saluran akar gigi, pemberian obat di dalam gigi mungkin dapat dilakukan berulang kali sesuai dengan tingkat keparahan penyakit dan gejala yang ada pada gigi tersebut."
+              },
+              {
+                "text": "Setelah gejala hilang, saluran akar yang telah bersih kemudian diisi dengan bahan pengganti saraf gigi agar bakteri tidak dapat masuk lagi ke dalam akar gigi. Gigi kemudian akan diperbaiki dengan penambalan atau pembuatan mahkota gigi baru dengan bahan yang lebih kuat."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "imageDekstop": "/images/sarafgroup_img_url.png",
+        "imageMobile": "/images/sarafgroupmb_img_url.png"
+      },
+      {},
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/sarafcomment_img_url.png",
+        "background": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "GIGI ANAK",
+    "slug": "perawatan-gigi-anak",
+    "service": "Pelayanan",
+    "title": "Perawatan Gigi Anak",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "price": "Rp 150.000*",
+    "type": "",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/gigianakbg_img_url.png",
+    "backgroundMobile": "/images/gigianakbgmb_img_url.png",
+    "content": [
+      {
+        "image": "/images/anakmaskmb_img_url.png",
+        "title": "Merawat Gigi adalah Sesuatu yang Dimulai Sejak Usia Muda",
+        "description": "Merawat gigi adalah sesuatu yang dimulai sejak usia muda yaitu segera setelah gigi susu pertama tumbuh! Mengajari anak Anda kesehatan gigi dan mulut yang baik akan membantu menjaga kesehatan gigi dan gusi sepanjang hidup mereka.",
+        "subTitle": "Perawatan Gigi Anak untuk Pertama KalI",
+        "descriptionSubTitle": "Saat anak pertama kali datang untuk periksa gigi, dokter gigi akan melakukan pemeriksaan dengan cara semenyenangkan mungkin. Hal ini bertujuan agar anak tidak takut menjalani proses perawatan gigi."
+      },
+      {
+        "imageDekstop": "/images/groupanak_img_url.png",
+        "imageMobile": "/images/anakgroupmb_img_url.png"
+      },
+      {},
+      {
+        "title": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "image": "/images/gigianakcoment_img_url.png",
+        "background": "/images/Background.png"
+      }
     ]
   }
 ]

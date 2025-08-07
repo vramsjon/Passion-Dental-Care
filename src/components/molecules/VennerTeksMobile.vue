@@ -11,8 +11,8 @@
       <div v-if="VennerGigi">
         <div class="flex justify-end items-end gap-6">
           <div>
-            <Heading2>{{ layanan.price }}</Heading2>
-            <Paragraph1 class="text-end">{{ layanan.type }}</Paragraph1>
+            <Heading2 class="text-end">{{ layanan.price }}</Heading2>
+            <Paragraph1 class="text-end text-nowrap">{{ layanan.type }}</Paragraph1>
           </div>
           <Image class="w-8" :src="layanan.icon" />
         </div>
@@ -79,7 +79,7 @@ onMounted(async () => {
   layanan.value = data.find((item) => item.slug === route.params.slug)
 
   if (layanan.value) {
-    if (layanan.value.code === 'VENNER GIGI' || layanan.value.code === 'BLEACHING' || layanan.value.code === 'TAMBALAN ELASTIS' || layanan.value.code === 'GUM LIFTING' || layanan.value.code === 'SCALING') {
+    if (layanan.value.code === 'VENNER GIGI' || layanan.value.code === 'BLEACHING' || layanan.value.code === 'TAMBALAN ELASTIS' || layanan.value.code === 'GUM LIFTING' || layanan.value.code === 'SCALING' || layanan.value.code === 'CABUT GIGI' || layanan.value.code === 'IMPLAN GIGI' || layanan.value.code === 'GIGI BUNGSU' || layanan.value.code === 'SARAF GIGI' || layanan.value.code === 'GIGI ANAK') {
       VennerGigi.value = true
     } else if (layanan.value.code === 'BEHEL GIGI') {
       BehelGigi.value = true

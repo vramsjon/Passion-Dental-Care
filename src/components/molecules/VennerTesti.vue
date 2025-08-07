@@ -16,7 +16,7 @@
         >
           <Image
             class="lg:w-[546px] lg:h-[708px] lg:absolute lg:left-[-250px] lg:top-[-248px]"
-            :src="vennerContent.talent"
+            :src="vennerContent.talent" 
           />
           <Image
             class="lg:w-[605px] lg:absolute lg:left-[200px] lg:top-[80px]"

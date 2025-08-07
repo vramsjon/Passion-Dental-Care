@@ -1,14 +1,21 @@
 <template>
   <div class="flex flex-wrap justify-between items-center w-full gap-4 md:gap-0">
-    <Link>
-      <TextBold>Promo</TextBold>
-    </Link>
-    <Link>
-      <TextBold>Artikel</TextBold>
-    </Link>
-    <Link>
+    <RouterLink to="/promo">
+      <Link>
+        <TextBold>Promo</TextBold>
+      </Link>
+    </RouterLink>
+    <RouterLink to="/artikel">
+      <Link>
+        <TextBold>Artikel</TextBold>
+      </Link>
+    </RouterLink>
+    <RouterLink to="/lokasi-klinik">
+      <Link>
       <TextBold>Lokasi</TextBold>
     </Link>
+    </RouterLink>
+    
     <Link>
       <TextBold>Reservasi</TextBold>
     </Link>
