@@ -1,27 +1,28 @@
-import surveyRepository from "../repositories/surveyRepository";
+import surveyRepository from '../repositories/surveyRepository'
+
+async function getQuestionsByUserId(uuid) {
+  try {
+    return await surveyRepository.getQuestionsByUserId(uuid)
+  } catch (error) {
+    console.error('Error fetching user questions:', error)
+    throw new Error('Could not retrieve question data')
+  }
+}
+
+async function submitSurveyAnswers(uuid, answers, questionBank) {
+  try {
+    const res = await surveyRepository.submitSurveyAnswers(uuid, answers, questionBank)
+    return res.data?.value // rata-rata rating
+  } catch (error) {
+    console.error('Error submitting survey answers:', error.response?.data || error.message)
+    throw new Error(
+      error.response?.data?.message || error.message || 'Could not submit survey answers',
+    )
+  }
+}
+
 
 export default {
-    async getUser(id){
-        try{
-            const user = await surveyRepository.getUser(id);
-            return user;
-        }catch (error) {
-            console.error("Error fetching user:", error);
-            throw new Error("Could not retrieve user data");
-        }
-    },
-
-    async sendSurvey(data) {
-    try {
-      return await surveyRepository.createSurvey(data)
-    } catch (error) {
-      console.error('🔥 DETAIL ERROR:', {
-        response: error.response?.data,
-        status: error.response?.status,
-        message: error.message,
-        full: error,
-      })
-      throw new Error("Could not send survey")
-    }
-  }
+  getQuestionsByUserId,
+  submitSurveyAnswers,
 }

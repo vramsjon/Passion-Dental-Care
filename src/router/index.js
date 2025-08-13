@@ -59,21 +59,19 @@ const routes = [
     name: DetailLokasiPage,
     component: DetailLokasiPage
   },
-  {
+    {
     path: '/survey',
     name: SurveyPage1,
-    component: SurveyPage1
+    component: SurveyPage1,
+    meta: {hideHeaderFooter: true}
   },
   {
-    path: '/survey-form',
-    name: SurveyFormPage,
-    component: SurveyFormPage
-  },
-  {
-    path: '/survey-page2',
-    name: SurveyPage2,
-    component: SurveyPage2
+    path: '/survey/:uuid',
+    name: 'SurveyPage1',
+    component: SurveyPage1,
+    meta: {hideHeaderFooter: true}
   }
+  
 ]
 
 const router = createRouter({

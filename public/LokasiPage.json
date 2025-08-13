@@ -2,7 +2,7 @@
   "text": "Temukan Lokasi Klinik Terdekat",
   "title": "Passion Dental Care",
   "backgroundDekstop": "/images/lokasibg_img_url.png",
-  "backgroudMobile": "",
+  "backgroundMobile": "/images/bgmoblok_img_url.png",
   "content": [
     {
       "slug": "cabang-gegerkalong",

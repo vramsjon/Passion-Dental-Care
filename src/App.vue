@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header v-if="!$route.meta.hideHeaderFooter">
     <div>
       <Navbar v-if="isLargeScreen"></Navbar>
 
@@ -12,7 +12,7 @@
   <main>
     <router-view />
   </main>
-  <footer>
+  <footer v-if="!$route.meta.hideHeaderFooter">
     <JanjiTemuSection></JanjiTemuSection>
     <FooterSection></FooterSection>
   </footer>

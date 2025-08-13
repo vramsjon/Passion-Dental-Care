@@ -1,13 +1,14 @@
 <template>
-  <ContainerBlue class="p-6">
-    <div class="bg-white rounded-2xl flex p-6">
-      <!-- Gambar Kiri -->
-      <div class="hidden md:block">
-        <img src="/images/imagesurvey.png" class="w-[480px] h-full object-cover grayscale" />
+  <div class="bg-white rounded-2xl flex">
+    <div class="w-full space-y-6">
+
+      <!-- Jika sudah submit, tampilkan halaman terima kasih -->
+      <div v-if="isSubmitted" class="flex justify-center items-center h-96">
+        <h1 class="text-3xl font-bold text-center">Terima kasih sudah mengisi survei!</h1>
       </div>
 
-      <!-- Survey Form -->
-      <div class="w-full md:w-1/2 p-8 space-y-6">
+      <!-- Form survey, tampilkan jika belum submit -->
+      <div v-else>
         <!-- Progress Bar -->
         <div class="flex justify-between">
           <div>
@@ -30,7 +31,7 @@
 
         <!-- Daftar Pertanyaan -->
         <div
-          v-for="(question, index) in questionBank[currentPage - 1]"
+          v-for="(question, index) in questionBank[currentPage - 1] || []"
           :key="index"
           class="space-y-2 pb-4"
         >
@@ -49,13 +50,14 @@
 
           <!-- Rating -->
           <RatingStar
-            v-if="currentPage < totalPages"
+            v-if="responseData[currentPage - 1]"
             v-model="responseData[currentPage - 1][index].rating"
           />
 
           <!-- Komentar -->
           <label class="block text-sm text-gray-500 mt-1">Komentar (Opsional)</label>
           <textarea
+            v-if="responseData[currentPage - 1]"
             v-model="responseData[currentPage - 1][index].comment"
             rows="2"
             placeholder="Tulis komentar Anda di sini..."
@@ -84,154 +86,103 @@
             @click="postSurvey"
             class="px-4 py-2 bg-blue-900 text-white rounded-lg font-medium"
           >
-            <RouterLink to="/survey-page2">Kirim</RouterLink>
+            Kirim
           </button>
         </div>
       </div>
     </div>
-  </ContainerBlue>
+  </div>
 </template>
 
 <script setup>
 import { ref, onMounted, watch } from 'vue'
-import ContainerBlue from '../atoms/ContainerBlue.vue'
 import RatingStar from '../molecules/RatingStar.vue'
 import Image from '../atoms/Image.vue'
 import surveyService from '@/services/surveyService'
 
-const totalPages = 6
+const totalPages = ref(0)
 const currentPage = ref(1)
 const STORAGE_KEY = 'surveyAnswersOnly'
+const questionBank = ref([])
+const responseData = ref([])
+const isSubmitted = ref(false)  // state baru
 
-// ✅ Daftar Pertanyaan Lengkap
-const questionBank = [
-  [
-    {
-      title: 'Kepuasan Pelayanan Dokter Gigi',
-      subtitle: 'Seberapa puas Anda dengan pelayanan dokter gigi yang menangani Anda?',
-    },
-    {
-      title: 'Penjelasan Prosedur dan Tindakan Medis',
-      subtitle: 'Apakah dokter menjelaskan prosedur atau tindakan medis dengan jelas dan mudah dimengerti?',
-    },
-  ],
-  [
-    {
-      title: 'Keramahan dan Sikap Staf Klinik',
-      subtitle: 'Bagaimana penilaian Anda terhadap keramahan dan sikap staf (resepsionis/perawat) di klinik kami?',
-    },
-    {
-      title: 'Kebersihan dan Kenyamanan Klinik',
-      subtitle: [
-        {
-          text: 'Apakah Anda merasa nyaman dengan fasilitas di klinik kami?',
-        },
-        {
-          text: 'Bagaimana penilaian Anda terhadap kebersihan klinik kami?',
-        },
-      ],
-    },
-  ],
-  [
-    {
-      title: 'Transparansi Biaya',
-      subtitle: 'Bagaimana penilaian Anda terhadap kejelasan dan keterbukaan biaya yang dikenakan untuk perawatan Anda?',
-    },
-    {
-      title: 'Kemudahan Proses Follow-up',
-      subtitle: 'Apakah proses pengingat atau follow-up (misalnya: jadwal kontrol berikutnya) dari klinik mudah dilakukan dan informatif?',
-    },
-  ],
-  [
-    {
-      title: 'Cara Admin Menjawab Pertanyaan',
-      subtitle: 'Bagaimana penilaian Anda terhadap cara admin klinik menjawab pertanyaan Anda melalui WhatsApp atau media komunikasi lainnya?',
-    },
-    {
-      title: 'Kemudahan Proses Booking',
-      subtitle: 'Seberapa mudah proses booking atau penjadwalan janji di klinik kami?',
-    },
-    {
-      title: 'Keramahan Admin saat Membalas Pesan',
-      subtitle: 'Bagaimana penilaian Anda terhadap keramahan admin saat membalas pesan Anda?',
-    },
-  ],
-  [
-    {
-      title: 'Kepuasan Keseluruhan',
-      subtitle: 'Secara keseluruhan, seberapa puas Anda dengan layanan yang Anda terima di Passion Dental Care?',
-    },
-    {
-      title: 'Kemungkinan Rekomendasi',
-      subtitle: 'Apakah Anda bersedia merekomendasikan Passion Dental Care kepada orang lain (teman/keluarga)?',
-    },
-  ],
-  [
-    {
-      title: 'Saran, Kritik, atau Pengalaman Tambahan',
-      subtitle: 'Kami sangat terbuka untuk saran dan kritik. Silakan sampaikan pengalaman, saran, atau masukan Anda selama berkunjung ke klinik kami.',
-    },
-  ],
-]
+const uuid = '64e643b2-8caf-482e-af65-44127294b4cf'
 
-// ✅ State jawaban
-const responseData = ref(
-  questionBank.map((page) =>
-    page.map(() => ({
-      rating: 0,
-      comment: ''
-    }))
-  )
-)
+onMounted(async () => {
+  try {
+    const res = await surveyService.getQuestionsByUserId(uuid)
 
-// ✅ Ambil dari localStorage
-// onMounted(async () => {
-//   const saved = localStorage.getItem(STORAGE_KEY)
-//   if (saved) {
-//     responseData.value = JSON.parse(saved)
-//   }
+    const mappedQuestions = res.kategori.map((kat) =>
+      kat.questions.map((q) => ({
+        id: q.id,
+        title: q.value.split('\n')[0],
+        subtitle: q.value.split('\n').slice(1).filter(Boolean),
+      })),
+    )
 
-//   try {
-//     const user = await surveyService.getUserById(1)
-//     console.log('User:', user)
-//   } catch (error) {
-//     console.error('Gagal ambil user:', error)
-//   }
-// })
+    questionBank.value = mappedQuestions
+    totalPages.value = mappedQuestions.length
 
-// ✅ Simpan ke localStorage saat isi berubah
+    let initialData = mappedQuestions.map((page) =>
+      page.map(() => ({
+        rating: 0,
+        comment: '',
+      })),
+    )
+
+    const savedData = localStorage.getItem(STORAGE_KEY)
+    if (savedData) {
+      try {
+        const parsed = JSON.parse(savedData)
+        if (Array.isArray(parsed)) {
+          initialData = initialData.map((page, pIndex) =>
+            page.map((item, qIndex) => ({
+              rating: parsed?.[pIndex]?.[qIndex]?.rating ?? 0,
+              comment: parsed?.[pIndex]?.[qIndex]?.comment ?? '',
+            })),
+          )
+        }
+      } catch (e) {
+        console.warn('Gagal parse data lama:', e)
+      }
+    }
+
+    responseData.value = initialData
+  } catch (error) {
+    console.error('Error saat mengambil data pertanyaan:', error)
+    alert('Terjadi kesalahan saat mengambil data pertanyaan. Silakan coba lagi.')
+  }
+})
+
 watch(
   responseData,
   (val) => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(val))
   },
-  { deep: true }
+  { deep: true },
 )
 
-// Navigasi
 const nextPage = () => {
-  if (currentPage.value < totalPages) currentPage.value++
+  if (currentPage.value < totalPages.value) currentPage.value++
 }
 const prevPage = () => {
   if (currentPage.value > 1) currentPage.value--
 }
 
-// ✅ Submit
-  const postSurvey = async () => {
-    const data = localStorage.getItem(STORAGE_KEY)
-    if (!data) {
-      alert('Data survey tidak ditemukan.')
-      return
-    }
-
-    try {
-      const response = await surveyService.sendSurvey(JSON.parse(data))
-      console.log('✅ Respon server:', response.message)
-      localStorage.removeItem(STORAGE_KEY)
-      alert(response.message || 'Survei berhasil dikirim. Terima kasih!')
-    } catch (error) {
-      console.error('Error saat mengirim survei:', error)  
-      alert('Terjadi kesalahan saat mengirim survei: \n' + error.message)
-    }
+const postSurvey = async () => {
+  try {
+    const averageRating = await surveyService.submitSurveyAnswers(
+      uuid,
+      responseData.value,
+      questionBank.value,
+    )
+    localStorage.removeItem(STORAGE_KEY)
+    alert(`Survei berhasil dikirim. Terima kasih! Nilai rata-rata: ${averageRating}`)
+    isSubmitted.value = true
+  } catch (error) {
+    console.error('Error saat mengirim survei:', error)
+    alert('Tidak dapat mengirim survey: ' + (error.message || ''))
+  }
 }
 </script>

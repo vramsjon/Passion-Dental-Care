@@ -21,14 +21,31 @@
       leave-to-class="opacity-0 -translate-y-5"
     >
       <div v-if="showMenu" class="flex flex-col p-4 gap-y-5">
-        <Link><TextBold class="border-b border-gray-200">Beranda</TextBold></Link>
-        <Link><TextBold class="border-b border-gray-200">Tentang</TextBold></Link>
-        <Link><TextBold class="border-b border-gray-200">Layanan</TextBold></Link>
-        <Link><TextBold class="border-b border-gray-200">Dokter</TextBold></Link>
-        <Link><TextBold class="border-b border-gray-200">Promo</TextBold></Link>
-        <Link><TextBold class="border-b border-gray-200">Artikel</TextBold></Link>
-        <Link><TextBold class="border-b border-gray-200">Lokasi</TextBold></Link>
-        <Link><TextBold class="border-b border-gray-200">Reservasi</TextBold></Link>
+        <RouterLink to="/">
+          <Link><TextBold class="border-b border-gray-200">Beranda</TextBold></Link>
+        </RouterLink>
+        <RouterLink to="/tentang-kami">
+          <Link><TextBold class="border-b border-gray-200">Tentang</TextBold></Link>
+        </RouterLink>
+        <RouterLink to="/layanan">
+          <Link><TextBold class="border-b border-gray-200">Layanan</TextBold></Link>
+        </RouterLink>
+        <RouterLink to="/tim-dokter">
+          <Link><TextBold class="border-b border-gray-200">Dokter</TextBold></Link>
+        </RouterLink>
+        <RouterLink to="/promo">
+          <Link><TextBold class="border-b border-gray-200">Promo</TextBold></Link>
+        </RouterLink>
+        <RouterLink to="/artikel">
+          <Link><TextBold class="border-b border-gray-200">Artikel</TextBold></Link>
+        </RouterLink>
+        <RouterLink to="/lokasi-klinik">
+          <Link><TextBold class="border-b border-gray-200">Lokasi</TextBold></Link>
+        </RouterLink>
+        <RouterLink to="/reservasi">
+          <Link><TextBold class="border-b border-gray-200">Reservasi</TextBold></Link>
+        </RouterLink>
+        
       </div>
     </transition>
   </div>

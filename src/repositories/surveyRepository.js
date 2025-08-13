@@ -1,23 +1,39 @@
+// src/repositories/surveyRepository.js
 import api from '../lib/axios'
 
 export default {
-    async getUserById(id) {
-    const response = await api.get(`/users/${id}`)
-    return response.data;
-    },
-    
-    async createSurvey(payload) {
+  async getQuestionsByUserId(uuid) {
     try {
-      console.log(' Payload dikirim ke /survey:', payload)
-      const response = await api.post('/api/client/', payload)
-      return response.data
+      const response = await api.get(`/api/client/questions/${uuid}`)
+      return response.data.data // hanya bagian data, bukan seluruh response
     } catch (error) {
-      console.error('Gagal mengirim survey (repository):', {
-        response: error.response?.data,
-        status: error.response?.status,
-        message: error.message
-      })
+      console.error('Gagal mengambil pertanyaan:', error)
       throw error
     }
-  }
+  },
+
+  async submitSurveyAnswers(uuid, rawAnswers, questionBank) {
+    try {
+      if (!questionBank || !Array.isArray(questionBank)) {
+        throw new Error('questionBank kosong atau bukan array')
+      }
+
+      // mapping ke format sesuai REQ BODY
+      const payload = questionBank.flatMap((page, pageIndex) =>
+        page.map((q, qIndex) => ({
+          id: q.id,
+          value: rawAnswers[pageIndex][qIndex].rating,
+          comment: rawAnswers[pageIndex][qIndex].comment || null,
+        })),
+      )
+
+      console.log('📦 Payload yang dikirim:', payload)
+
+      const response = await api.post(`/api/client/questions/${uuid}`, payload)
+      return response.data // kembalikan data full biar service bisa ambil rata-rata
+    } catch (error) {
+      console.error('Gagal mengirim jawaban survei:', error)
+      throw error
+    }
+  },
 }
