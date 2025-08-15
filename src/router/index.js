@@ -16,7 +16,7 @@ import SurveyPage2 from '../components/pages/SurveyPage2.vue'
 const routes = [
   {
     path: '/',
-    name: LandingPage,
+    name: 'LandingPage',
     component: LandingPage,
   },
   {

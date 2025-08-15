@@ -137,6 +137,7 @@ onMounted(async () => {
         text: 'UUID untuk survei ini tidak ditemukan. Silakan coba lagi.',
         confirmButtonText: 'OK',
       })
+      router.push({ name: 'LandingPage' })
       return
     }
 
