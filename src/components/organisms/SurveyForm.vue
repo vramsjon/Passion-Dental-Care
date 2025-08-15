@@ -1,7 +1,6 @@
 <template>
   <div class="bg-white rounded-2xl flex">
     <div class="w-full space-y-6">
-
       <!-- Jika sudah submit, tampilkan halaman terima kasih -->
       <div v-if="isSubmitted" class="flex justify-center items-center h-96">
         <h1 class="text-3xl font-bold text-center">Terima kasih sudah mengisi survei!</h1>
@@ -10,6 +9,7 @@
       <!-- Form survey, tampilkan jika belum submit -->
       <div v-else>
         <!-- Progress Bar -->
+
         <div class="flex justify-between">
           <div>
             <div class="flex gap-1 mb-2">
@@ -30,6 +30,9 @@
         </div>
 
         <!-- Daftar Pertanyaan -->
+        <div class="text-lg font-bold text-gray-700 mb-4 mt-4">
+          {{ categories[currentPage - 1] }}
+        </div>
         <div
           v-for="(question, index) in questionBank[currentPage - 1] || []"
           :key="index"
@@ -70,9 +73,9 @@
           <button
             @click="prevPage"
             class="px-4 py-2 bg-gray-200 rounded-lg text-gray-700 font-medium"
-            :disabled="currentPage === 1"
+      
           >
-            Sebelumnya
+            Kembali
           </button>
           <button
             v-if="currentPage < totalPages"
@@ -92,40 +95,57 @@
       </div>
     </div>
   </div>
+  
 </template>
 
 <script setup>
+import SurveyPage1 from './SurveyPage1.vue'
+import Swal from 'sweetalert2'
 import { ref, onMounted, watch } from 'vue'
 import RatingStar from '../molecules/RatingStar.vue'
 import Image from '../atoms/Image.vue'
 import surveyService from '@/services/surveyService'
 
+const emit = defineEmits(['back'])
 const totalPages = ref(0)
 const currentPage = ref(1)
 const STORAGE_KEY = 'surveyAnswersOnly'
 const questionBank = ref([])
 const responseData = ref([])
-const isSubmitted = ref(false)  // state baru
+const isSubmitted = ref(false)
+const categories = ref([])
 
-const uuid = '64e643b2-8caf-482e-af65-44127294b4cf'
+
+const props = defineProps({
+  uuid: {
+    type: String,
+    required: true
+  }
+})
 
 onMounted(async () => {
   try {
-    const res = await surveyService.getQuestionsByUserId(uuid)
+    const res = await surveyService.getQuestionsByUserId(props.uuid)
 
-    const mappedQuestions = res.kategori.map((kat) =>
-      kat.questions.map((q) => ({
-        id: q.id,
-        title: q.value.split('\n')[0],
-        subtitle: q.value.split('\n').slice(1).filter(Boolean),
-      })),
-    )
+    const mappedQuestions = Array.isArray(res.kategori)
+      ? res.kategori.map((kat) => ({
+          category: kat.category,
+          questions: Array.isArray(kat.questions)
+            ? kat.questions.map((q) => ({
+                id: q.id,
+                title: q.value.split('\n')[0],
+                subtitle: q.value.split('\n').slice(1).filter(Boolean),
+              }))
+            : [],
+        }))
+      : []
 
-    questionBank.value = mappedQuestions
-    totalPages.value = mappedQuestions.length
+    questionBank.value = mappedQuestions.map((item) => item.questions)
+    categories.value = mappedQuestions.map((item) => item.category)
+    totalPages.value = questionBank.value.length
 
-    let initialData = mappedQuestions.map((page) =>
-      page.map(() => ({
+    let initialData = questionBank.value.map((questions) =>
+      questions.map(() => ({
         rating: 0,
         comment: '',
       })),
@@ -151,7 +171,13 @@ onMounted(async () => {
     responseData.value = initialData
   } catch (error) {
     console.error('Error saat mengambil data pertanyaan:', error)
-    alert('Terjadi kesalahan saat mengambil data pertanyaan. Silakan coba lagi.')
+    await Swal.fire({
+      icon: 'error',
+      title: 'Gagal Memuat Data',
+      text: 'Terjadi kesalahan saat mengambil data pertanyaan. Silakan coba lagi.',
+      confirmButtonText: 'OK',
+    })
+    return
   }
 })
 
@@ -167,7 +193,12 @@ const nextPage = () => {
   if (currentPage.value < totalPages.value) currentPage.value++
 }
 const prevPage = () => {
-  if (currentPage.value > 1) currentPage.value--
+  if (currentPage.value > 1){
+    currentPage.value--
+  }else{
+    emit('back') // Emit back event if already on the first page
+  } 
+
 }
 
 const postSurvey = async () => {
@@ -178,11 +209,21 @@ const postSurvey = async () => {
       questionBank.value,
     )
     localStorage.removeItem(STORAGE_KEY)
-    alert(`Survei berhasil dikirim. Terima kasih! Nilai rata-rata: ${averageRating}`)
+    await Swal.fire({
+      icon: 'success',
+      title: 'Survei Berhasil',
+      text: `Terima kasih sudah mengisi survei! Nilai rata-rata: ${averageRating}`,
+      confirmButtonText: 'OK',
+    })
     isSubmitted.value = true
   } catch (error) {
     console.error('Error saat mengirim survei:', error)
-    alert('Tidak dapat mengirim survey: ' + (error.message || ''))
+    await Swal.fire({
+      icon: 'error',
+      title: 'Gagal Mengirim Survei',
+      text: `Tidak dapat mengirim survey: ${error.message || ''}`,
+      confirmButtonText: 'OK',
+    })
   }
 }
 </script>

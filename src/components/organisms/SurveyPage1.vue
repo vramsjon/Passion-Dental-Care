@@ -13,12 +13,12 @@
         <!-- Step dan Logo -->
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 w-full">
           <div class="flex gap-2">
-            <div class="bg-gray-300 rounded-lg w-[48px] h-[12px] p-2"></div>
-            <div class="bg-gray-300 rounded-xl w-[48px] h-[12px] p-2"></div>
-            <div class="bg-gray-300 rounded-xl w-[48px] h-[12px] p-2"></div>
-            <div class="bg-gray-300 rounded-xl w-[48px] h-[12px] p-2"></div>
-            <div class="bg-gray-300 rounded-xl w-[48px] h-[12px] p-2"></div>
-            <div class="bg-gray-300 rounded-xl w-[48px] h-[12px] p-2"></div>
+            <div
+              v-for="(kategori, index) in questions"
+              :key="index"
+              class="rounded-xl w-[48px] h-[12px] p-2"
+              :class="index === currentStep ? 'bg-blue-500' : 'bg-gray-300'"
+            ></div>
           </div>
           <div>
             <Image class="w-[40px] h-[40px]" src="/images/logo.png" />
@@ -61,7 +61,7 @@
           </div>
 
           <!-- Panduan -->
-          <FontSurvey>Cara Pengisian:</FontSurvey>
+          <FontSurvey class="text-nowrap py-4">Cara Pengisian:</FontSurvey>
           <TeksGray>
             <ul class="list-disc space-y-2">
               <li>Untuk pertanyaan dengan skala bintang, berikut panduannya:</li>
@@ -84,12 +84,16 @@
         </div>
 
         <!-- Tombol hanya muncul jika uuid sudah tersedia -->
-        <Button @click="startSurvey" class="bg-blue-900 w-full sm:w-[405px] h-[56px] text-white font-medium" :disabled="!uuid">
+        <Button
+          @click="startSurvey"
+          class="bg-blue-900 w-full sm:w-[405px] h-[56px] text-white font-medium"
+          :disabled="!uuid"
+        >
           Selanjutnya
         </Button>
       </div>
       <div v-else>
-        <SurveyForm :uuid="uuid" />
+        <SurveyForm :uuid="uuid" @back="isSurveyStarted = false"  />
       </div>
     </div>
   </ContainerBlue>
@@ -97,6 +101,7 @@
 
 <script setup>
 import surveyService from '@/services/surveyService'
+import Swal from 'sweetalert2'
 
 import Image from '../atoms/Image.vue'
 import FontSurvey from '../atoms/FontSurvey.vue'
@@ -116,20 +121,25 @@ const isSurveyStarted = ref(false)
 const user = ref(null)
 const questions = ref([])
 const uuid = ref(null)
+const currentStep = ref(0) // posisi progress
 
 const router = useRouter()
 const route = useRoute()
 
 onMounted(async () => {
   try {
-    // Ambil uuid dari params route dulu
     if (route.params.uuid) {
       uuid.value = route.params.uuid
     } else {
-      alert('UUID tidak ditemukan')
+      await Swal.fire({
+        icon: 'error',
+        title: 'UUID Tidak Ditemukan',
+        text: 'UUID untuk survei ini tidak ditemukan. Silakan coba lagi.',
+        confirmButtonText: 'OK',
+      })
+      return
     }
 
-    // Panggil API pakai uuid yang sudah ditentukan
     const data = await surveyService.getQuestionsByUserId(uuid.value)
 
     if (data) {
@@ -139,9 +149,8 @@ onMounted(async () => {
         cabang: data.branch,
         dokter: data.dokter,
       }
-      questions.value = data.kategori
+      questions.value = data.kategori || []
 
-      // Jika route params berbeda, push ke route dengan uuid terbaru
       if (route.params.uuid !== uuid.value) {
         router.push({ name: 'SurveyPage1', params: { uuid: uuid.value } })
       }
