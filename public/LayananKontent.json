@@ -1,8 +1,20 @@
 [
-    {
-        "judul": "Bagaimana Venner Menciptakan Senyum Sempurna",
-        "deskripsi": "Perawatan yang satu ini sangatlah berguna untuk Anda yang menginginkan gigi yang rapi. Perawatan ini bertujuan untuk memperbaiki warna serta bentuk gigi Anda menjadi sesuai apa yang diinginkan. Veneer gigi akan menempel secara permanen, sedangkan bahan untuk veneer adalah resin dan porselen. Kondisi gigi yang biasanya di veneer adalah yang memiliki keadaan seperti patah, renggang dan juga perubahan warna pada gigi. Masa usia veneer gigi tergantung pada jenis veneer yang akan Anda gunakan. Semua bergantung dengan bagaimana Anda merawat kesehatan gigi setelah melakukan perawatan veneer.",
-        "subjudul": "Manfaat Venner",
+  {
+    "code": "VENNER GIGI",
+    "slug": "venner-gigi",
+    "service": "Pelayanan",
+    "title": "Venner Gigi",
+    "description": "NikNikmati CICILAN 0% s/d 12 BULAN dengan menggunakan Kartu Kredit BCA! *harga mulai dari",
+    "price": "Rp 1.500.000/Gigi*",
+    "type": "",
+    "icon": "/images/wallet_img_url.png",
+    "backgroundDekstop": "/images/vennerbg_img_url.png",
+    "backgroundMobile": "/images/vennerbgmb_img_url.png",
+    "content": [
+      {
+        "title": "Bagaimana Venner Menciptakan Senyum Sempurna",
+        "description": "Perawatan yang satu ini sangatlah berguna untuk Anda yang menginginkan gigi yang rapi. Perawatan ini bertujuan untuk memperbaiki warna serta bentuk gigi Anda menjadi sesuai apa yang diinginkan. Veneer gigi akan menempel secara permanen, sedangkan bahan untuk veneer adalah resin dan porselen. Kondisi gigi yang biasanya di veneer adalah yang memiliki keadaan seperti patah, renggang dan juga perubahan warna pada gigi. Masa usia veneer gigi tergantung pada jenis veneer yang akan Anda gunakan. Semua bergantung dengan bagaimana Anda merawat kesehatan gigi setelah melakukan perawatan veneer.",
+        "subTitle": "Manfaat Venner",
         "manfaat": [
             {
                 "deskripsi": "Semua perawatan gigi yang Anda lakukan pasti memiliki manfaat, begitu juga dengan veneer gigi. Sama halnya behel gigi, veneer juga berguna untuk merapatkan gigi. Namun berbeda prosesnya, kalau behel biasanya digunakan untuk memperbaiki posisi gigi secara menyeluruh. Sedangkan veneer gigi bisa dilakukan hanya dengan satu bagian gigi saja. Veneer lebih dipilih karena mampu memberikan kesan natural pada gigi. "
@@ -939,7 +951,3 @@
     ]
   }
 ]
-=======
-    }
-]
->>>>>>> 617806239a862393bc880100b9cd83cfb988a568

@@ -13,7 +13,7 @@
           <TimDokterCard class="relative">
             <Image class="w-[622px] absolute left-[-150px] top-[-90px]" :src="dokterItem.image" />
             <div class="absolute right-0 top-[60px]">
-              <div class="flex flex-col w-[494px] space-y-4">
+              <div class="flex flex-col w-[494px] space-y-4" >
                 <div class="flex">
                   <p class="text-5xl text-white"></p>
                   <Heading1>{{ dokterItem.name }}</Heading1>
@@ -29,7 +29,7 @@
           </TimDokterCard>
         </div>
         <div v-else class="flex justify-center items-center mt-40">
-          <TimDokterCard class="relative">
+          <TimDokterCard class="relative pl-4">
             <Image class="absolute top-[-125px]" :src="dokterItem.image" />
             <div class="absolute top-[160px]">
               <div class="flex flex-col space-y-4">
@@ -37,7 +37,7 @@
                   <p class="text-2xl text-white"></p>
                   <Heading1>{{ dokterItem.name }}</Heading1>
                 </div>
-                <Paragraph3 class="px-4 text-center">
+                <Paragraph3 class="px-4  text-center">
                   {{ dokterItem.description }}
                 </Paragraph3>
               </div>
