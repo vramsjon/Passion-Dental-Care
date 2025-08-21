@@ -8,7 +8,7 @@
             "image": "/images/dokter1.png"
         },
         {
-            "name": ".Drg. Kelvin Gohan",
+            "name": ".Drg. Kelvin Gohan Sp. Perio",
             "description": "Saya adalah seorang Periodontis yang menangani masalah jaringan pendukung gigi. Untuk Anda yang memiliki masalah seperti gigi goyang, gusi bengkak, infeksi pada gusi, dll. mari periksakan gigi Anda di PDC.",
             "image": "/images/dokter2.png"
         },
@@ -101,11 +101,7 @@
             "name": "Drg. Faradilla Kharisma",
             "description": "Saya adalah dokter gigi yang saat ini sedang menjalani pendidikan dokter gigi spesialis ortodonti Estetika gigi adalah kunci dalam senyum seseorang. scalling, penambalan gigi, pembuatan mahkota gigi, bleaching & pencabutan merupakan fokus utama perawatan yg akan saya berikan untuk menunjang estetika. Kenyamanan pasien, komunikasi dan efisiensi dalam perawatan menjadi kunci utama kami dalam memberikan perawatan.",
             "image": "/images/dokter20.png"
-        },
-        {
-            "name": "Drg.Dela Puspita",
-            "description": "Dokter gigi berpengalaman dalam memberikan pelayanan berkualitas tinggi, Berkomitemen kuat terhadap kesehatan gigi pasien dan kemahiran dalam mendiagnosis dan merawat berbagai penyakit mulut. Memiliki keterampilan komunikasi yang baik, mampu membangun hubungan yang kuat dan mengedukasi pasien untuk menjaga kebersihan mulut yang tepat. Dan mahir dalam menggunakan teknologi gigi terbaru dan berusaha memanfaatkan keterampilan dan pengalaman untuk memberikan pelayanan gigi yang maksimal.",
-            "image": "/images/dokter21.png"
         }
+
     ]
 }
