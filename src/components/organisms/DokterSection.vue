@@ -15,7 +15,7 @@
             <div class="absolute right-0 top-[60px]">
               <div class="flex flex-col w-[494px] space-y-4">
                 <div class="flex">
-                  <p class="text-5xl text-white">Drg.</p>
+                  <p class="text-5xl text-white"></p>
                   <Heading1>{{ dokterItem.name }}</Heading1>
                 </div>
                 <Paragraph3 class="pr-4">
@@ -34,7 +34,7 @@
             <div class="absolute top-[160px]">
               <div class="flex flex-col space-y-4">
                 <div class="flex justify-center">
-                  <p class="text-2xl text-white">Drg.</p>
+                  <p class="text-2xl text-white"></p>
                   <Heading1>{{ dokterItem.name }}</Heading1>
                 </div>
                 <Paragraph3 class="px-4 text-center">
@@ -57,7 +57,7 @@
             <div class="absolute left-0 top-[60px]">
               <div class="flex flex-col w-[494px] space-y-4">
                 <div class="flex">
-                  <p class="text-5xl text-white">Drg.</p>
+                  <p class="text-5xl text-white"></p>
                   <Heading1>{{ dokterItem.name }}</Heading1>
                 </div>
                 <Paragraph3 class="pr-4">
@@ -76,7 +76,7 @@
             <div class="absolute top-[160px]">
               <div class="flex flex-col space-y-4">
                 <div class="flex justify-center">
-                  <p class="text-2xl text-white">Drg.</p>
+                  <p class="text-2xl text-white"></p>
                   <Heading1>{{ dokterItem.name }}</Heading1>
                 </div>
                 <Paragraph3 class="px-4 text-center">
