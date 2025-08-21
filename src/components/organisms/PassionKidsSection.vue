@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-center items-center">
     <div
-      class="relative bg-[url('/images/background.png')] bg-contain bg-no-repeat bg-center w-full max-w-[1100px] aspect-[1100/650] mt-20 lg:mt-52"
+      class="relative bg-[url('/images/Background.png')] bg-contain bg-no-repeat bg-center w-full max-w-[1100px] aspect-[1100/650] mt-20 lg:mt-52"
     >
       <div class="absolute top-4 left-5 lg:top-[3%] lg:left-[-1%] lg:w-[90%] z-10">
         <PassionKidsTeks  />

@@ -20,7 +20,7 @@
     <div class="w-[80%] rounded-3xl">
       <Image
         v-if="isLargeScreen"
-        class="w-full h-auto object-contain rounded-3xl"
+        class="w-full h-auto object-cover rounded-3xl"
         src="/images/testi2.png"
         link="https://www.youtube.com/shorts/CoW0nPICLKg"
       />

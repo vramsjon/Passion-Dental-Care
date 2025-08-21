@@ -7,7 +7,7 @@
   >
     <div class="lg:flex items-center gap-10 lg:px-30 py-4 px-4">
       <NavLink1 />
-      <Image class="w-[70px]" src="/images/logo.png" />
+      <Image class="w-[70px]" src="/public/logo.png" />
       <NavLink2 />
     </div>
   </div>
