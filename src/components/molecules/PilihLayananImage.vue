@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-3 place-items-center px-4">
-    <RouterLink to="/venner-gigi">
+    <RouterLink to="/layanan/venner-gigi">
       <div
         class="flex flex-col justify-center sm:max-w-[85px] md:max-w-[127px] lg:max-w-[255px] items-center"
       >

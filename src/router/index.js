@@ -10,8 +10,10 @@ import ArtikelPages from '../components/pages/ArtikelPages.vue'
 import LokasiPages from '../components/pages/LokasiPages.vue'
 import DetailLokasiPage from '../components/pages/DetailLokasiPage.vue'
 import SurveyPage1 from '../components/pages/SurveyPage1.vue'
+import DetailLayanan from '../components/organisms/DetailLayanan.vue'
 import SurveyFormPage from '../components/pages/SurveyFormPage.vue'
 import SurveyPage2 from '../components/pages/SurveyPage2.vue'
+
 
 const routes = [
   {
@@ -33,6 +35,11 @@ const routes = [
     path: '/layanan',
     name: LayananPage,
     component: LayananPage,
+  },
+  {
+    path: '/layanan/:slug',
+    name: DetailLayanan,
+    component: DetailLayanan,
   },
   {
     path: '/venner-gigi',

@@ -8,7 +8,7 @@
     <div>
       <div
         v-if="isLargeScreen"
-        class=" w-full min-h-[340px] bg-center bg-no-repeat bg-cover bg- object-contain lg:w-[1066px] lg:h-[540px] rounded-4xl flex lg:mt-40 relative"
+        class=" w-full min-h-[340px] bg-center bg-no-repeat bg-cover bg-object-contain lg:w-[1066px] lg:h-[540px] rounded-4xl flex lg:mt-40 relative"
         :style="`background-image: url(${vennerContent.background})`"
         >
         <div
