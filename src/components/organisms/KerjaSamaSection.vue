@@ -3,10 +3,10 @@
     <KerjasamaTeks></KerjasamaTeks>
     <div>
       <div v-if="isLargeScreen">
-        <Image src="/images/asuransi.png" />
+        <Image class="w-screen" src="/images/asuransi.png" />
       </div>
       <div v-else>
-        <Image src="/images/asuransi2.png" />
+        <Image src="/images/assuransi2.png" />
       </div>
     </div>
   </div>

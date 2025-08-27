@@ -23,7 +23,7 @@
         <!-- Elemen lainnya -->
         <Image class="absolute top-[262px]" src="/images/talenthome.png" />
         <InfoText class="absolute top-[150px]" />
-        <Image class="absolute top-0 z-10" src="/images/light1.png" />
+        <Image class="absolute top-4 z-10" src="/images/light1.png" />
       </div>
     </div>
   </div>

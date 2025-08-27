@@ -1,0 +1,53 @@
+{
+  "title": "Klaim Promo Segera!",
+  "description": "Dapatkan penawaran terbaik untuk perawatan gigi mu di Passion Dental Care",
+  "backgroundDekstop": "/images/tentangkamibg.png",
+  "backgroundMobile": "/images/promobgdekstop_img_url.png",
+  "content": [
+    {
+      "title": "Heiii kamu para Guru & Pelajar!",
+      "description": [
+        {
+          "text": "Karena bulan mei ini adalah bulan pelajar, Passion Dental Care mau ikut merayakannya dengan memberikan promo spesial untuk kamu yang masih sekolah dan para pahlawan tanpa tanda jasa — para guru! "
+        },
+        {
+          "text": "Gigi berlubang tapi takut biaya tambal mahal? Mau pasang behel tapi dompet pelajar terbatas? Tenang… di bulan Mei ini, Passion Dental Care hadir dengan promo aMAYzing yang nggak boleh kamu lewatkan! "
+        },
+        {
+          "text": "Diskon Tambal Gigi 100K untuk kamu yang udah menjadi pahlawan tanpa jasa : Guru! Buat kamu para Pelajar, kamu bisa dapetin Harga Pasang Behel dari Rp5.000.000 jadi cuma Rp2.499.000! Ayo Buruan dapetin promonya sebelum bulan mei ini habis yah!"
+        }
+      ],
+      "image": "/images/poster1_img_url.png"
+    },
+    {
+      "title": "SERIUS? SCALING BISA SEMURAH INI?!",
+      "description": [
+        {
+          "text": "Banyak yang nggak percaya pas dengar harganya. Bukan promo abal-abal, hasilnya tetap bersih maksimal. "
+        },
+        {
+          "text": "Sekali coba, pasti balik lagi. Slot terbatas — yang lambat, siap-siap kehabisan. Berlaku sampai 31 Mei 2025! "
+        },
+        {
+          "text": "HANYA BERLAKU UNTUK CABANG CIWASTRA DAN BOJONGRAYA!"
+        }
+      ],
+      "image": "/images/poster2_img_url.png"
+    },
+    {
+      "title": "Mau tampil maksimal dengan wajah menawan dan senyum percaya diri?",
+      "description": [
+        {
+          "text": "Wujudkan wishlistmu dengan PROMO SPESIAL KOLABORASI Passion Dental Care x Marvee Clinic!"
+        },
+        {
+          "text": "Dapatkan Voucher DISKON Rp 100.000 untuk semua layanan perawatan gigi di semua cabang Passion Dental Care setelah melakukan treatment di @marveeclinic.  Promo Berlaku hingga 31 Oktober 2025"
+        },
+        {
+          "text": "PDC telah bekerja sama dengan asuransi AdMedika, ISOMedik, Innova Care, Owlexa, dan masih banyak lagi"
+        }
+      ],
+      "image": "/images/poster3_img_url.png"
+    }
+  ]
+}

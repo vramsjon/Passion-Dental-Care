@@ -1,0 +1,833 @@
+[
+  {
+    "code": "GEGERKALONG",
+    "slug": "cabang-gegerkalong",
+    "text": "Lokasi Klinik",
+    "title": "Passion Dental Care Cabang Gegerkalong",
+    "backgroundDekstop": "/images/promobg_img_url.png",
+    "BackgroundMobile": "/images/promobgdekstop_img_url.png",
+    "content": [
+      {
+        "title": "Lokasi Klinik Cabang Gegerkalong",
+        "background": "/images/lokasibgcontent_img_url.png",
+        "name": "Cabang Gegerkalong",
+        "address": "Jl. Sukahaji No.12, Sukarasa, Kec. Sukasari, Kota Bandung, Jawa Barat 40152",
+        "contact": "0812-9009-9562",
+        "image": "/images/mapsukahaji_img_url.png"
+      },
+      {
+        "imageGaleri": "/images/fotosukahaji_img_url.png"
+      },
+      {
+        "title": "Jadwal Praktik Dokter Sukahaji",
+        "schedule": [
+          {
+            "day": "Minggu",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Winda, drg"
+              },
+              {
+                "name": "Winda, drg"
+              },
+              {
+                "name": "Hanna, drg"
+              }
+            ]
+          },
+          {
+            "day": "Senin",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Tiara, drg"
+              },
+              {
+                "name": "Tiara, drg"
+              },
+              {
+                "name": "Kelvin, drg"
+              }
+            ]
+          },
+          {
+            "day": "Selasa",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Febe, drg"
+              },
+              {
+                "name": "Winda, drg"
+              },
+              {
+                "name": "Bela, drg"
+              }
+            ]
+          },
+          {
+            "day": "Rabu",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Tiara, drg"
+              },
+              {
+                "name": "Febe, drg"
+              },
+              {
+                "name": "Kelvin, drg"
+              }
+            ]
+          },
+          {
+            "day": "Kamis",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Febe, drg"
+              },
+              {
+                "name": "Winda, drg"
+              },
+              {
+                "name": "Bela, drg"
+              }
+            ]
+          },
+          {
+            "day": "Jumat",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Kelvin, drg"
+              },
+              {
+                "name": "Winda, drg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleTesti": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "imageComent": "/images/comensukahaji_img_url.png",
+        "backgroundtesti": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "SARIJADI",
+    "slug": "cabang-sarijadi",
+    "text": "Lokasi Klinik",
+    "title": "Passion Dental Care Cabang Sarijadi",
+    "backgroundDekstop": "/images/promobg_img_url.png",
+    "BackgroundMobile": "/images/promobgdekstop_img_url.png",
+    "content": [
+      {
+        "title": "Lokasi Klinik Cabang Sarijadi",
+        "background": "/images/lokasibgcontent_img_url.png",
+        "name": "Cabang Sarijadi",
+        "address": "Jl Perintis No. 7, Sarijadi, Kec. Sukasari, Kota Bandung 0812-1380-7090",
+        "contact": "0812-1380-7090",
+        "image": "/images/mapsarijadi_img_url.png"
+      },
+      {
+        "imageGaleri": "/images/fotosarijadi_img_url.png"
+      },
+      {
+        "title": "Jadwal Praktik Dokter Sarijadi",
+        "schedule": [
+          {
+            "day": "Minggu",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Faradilla, drg"
+              },
+              {
+                "name": "Faradilla, drg"
+              },
+              {
+                "name": "Kelvin, drg"
+              }
+            ]
+          },
+          {
+            "day": "Senin",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Winda, drg"
+              },
+              {
+                "name": "Bela Pramesi, drg"
+              },
+              {
+                "name": "Winda, drg"
+              }
+            ]
+          },
+          {
+            "day": "Selasa",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Bela Pramesi, drg"
+              },
+              {
+                "name": "Bela Pramesi, drg"
+              },
+              {
+                "name": "Winda, drg"
+              }
+            ]
+          },
+          {
+            "day": "Rabu",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Bela Pramesi, drg"
+              },
+              {
+                "name": "Winda, drg"
+              },
+              {
+                "name": "Bela Pramesi, drg"
+              }
+            ]
+          },
+          {
+            "day": "Kamis",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Bela Pramesi, drg"
+              },
+              {
+                "name": "Kelvin, drg"
+              },
+              {
+                "name": "Winda, drg"
+              }
+            ]
+          },
+          {
+            "day": "Jumat",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Bela Pramesi, drg"
+              },
+              {
+                "name": "Bela Pramesi, drg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleTesti": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "imageComent": "/images/comentsarijadi_img_url.png",
+        "backgroundTesti": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "PARONGPONG",
+    "slug": "cabang-parongpong",
+    "text": "Lokasi Klinik",
+    "title": "Passion Dental Care Cabang Parongpong",
+    "backgroundDekstop": "/images/promobg_img_url.png",
+    "BackgroundMobile": "/images/promobgdekstop_img_url.png",
+    "content": [
+      {
+        "title": "Lokasi Klinik Cabang Lembang",
+        "background": "/images/lokasibgcontent_img_url.png",
+        "name": "Cabang Lembang",
+        "address": "Komplek Villa Istana Bunga, Jl. Kolonel Masturi No. 6, Kec. Parongpong, Kab. Bandung Barat, Jawa Barat 40559",
+        "contact": "0896-4647-2860",
+        "image": "/images/mapparongpong_img_url.png"
+      },
+      {
+        "imageGaleri": "/images/fotoparongpong_img_url.png"
+      },
+      {
+        "title": "Jadwal Praktik Dokter Parongpong",
+        "schedule": [
+          {
+            "day": "Minggu",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Tiara, drg"
+              },
+              {
+                "name": "Merry, drg"
+              }
+            ]
+          },
+          {
+            "day": "Senin",
+            "time": [
+              {
+                "text": "08.00 ~ 17.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Shabrina   , drg"
+              }
+            ]
+          },
+          {
+            "day": "Selasa",
+            "time": [
+              {
+                "text": "10.00 ~ 14.30"
+              },
+              {
+                "text": "14.30 ~ 18.30"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Tiara, drg"
+              },
+              {
+                "name": "Shabrina, drg"
+              }
+            ]
+          },
+          {
+            "day": "Rabu",
+            "time": [
+              {
+                "text": "08.30 ~ 12.30"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Shabrina, drg"
+              },
+              {
+                "name": "Tiara, drg"
+              }
+            ]
+          },
+          {
+            "day": "Kamis",
+            "time": [
+              {
+                "text": "10.00 ~ 14.30"
+              },
+              {
+                "text": "14.30 ~ 18.30"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Merry, drg"
+              },
+              {
+                "name": "Tiara, drg"
+              }
+            ]
+          },
+          {
+            "day": "Jumat",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Tiara, drg"
+              },
+              {
+                "name": "Shabrina, drg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleTesti": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "imageComent": "/images/comenparongpong_img_url.png",
+        "backgroundTesti": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "CIWASTRA",
+    "slug": "cabang-ciwastra",
+    "text": "Lokasi Klinik",
+    "title": "Passion Dental Care Cabang Ciwastra",
+    "backgroundDekstop": "/images/promobg_img_url.png",
+    "BackgroundMobile": "/images/promobgdekstop_img_url.png",
+    "content": [
+      {
+        "title": "Lokasi Klinik Cabang Ciwastra",
+        "background":"/images/lokasibgcontent_img_url.png",
+        "name": "Cabang Buah batu - Ciwastra",
+        "address": "Jl. Ciwastra 99, Margasari, Kec. Buahbatu, Kota Bandung, Jawa Barat 40287,",
+        "contact": "0821-1700-0614",
+        "image": "/images/mapsarijadi_img_url.png"
+      },
+      {
+        "imageGaleri": "/images/fotosarijadi_img_url.png"
+      },
+      {
+        "title": "Jadwal Praktik Dokter Ciwastra",
+        "schedule": [
+          {
+            "day": "Minggu",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Zhalfa Puspa, drg"
+              },
+              {
+                "name": "Zhalfa Puspa, drg"
+              },
+              {
+                "name": "Ali, drg"
+              }
+            ]
+          },
+          {
+            "day": "Senin",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Agata Ayu, drg"
+              },
+              {
+                "name": "Christina, drg"
+              },
+              {
+                "name": "Christina, drg"
+              }
+            ]
+          },
+          {
+            "day": "Selasa",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Fieki, drg"
+              },
+              {
+                "name": "Fieki, drg"
+              },
+              {
+                "name": "Zhalfa Puspa, drg"
+              }
+            ]
+          },
+          {
+            "day": "Rabu",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Slimi, drg"
+              },
+              {
+                "name": "Christina, drg"
+              },
+              {
+                "name": "Dela, drg"
+              }
+            ]
+          },
+          {
+            "day": "Kamis",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Zhalfa Puspa, drg"
+              },
+              {
+                "name": "Agatha Ayu, drg"
+              },
+              {
+                "name": "Slimi, drg"
+              }
+            ]
+          },
+          {
+            "day": "Jumat",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Ali, drg"
+              },
+              {
+                "name": "Dela, drg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleTesti": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "imageComent": "/images/comentsarijadi_img_url.png",
+        "backgroundTesti": "/images/Background.png"
+      }
+    ]
+  },
+  {
+    "code": "CIJERAH",
+    "slug": "cabang-cijerah",
+    "text": "Lokasi Klinik",
+    "title": "Passion Dental Care Cabang Cijerah",
+    "backgroundDekstop": "/images/promobg_img_url.png",
+    "BackgroundMobile": "/images/promobgdekstop_img_url.png",
+    "content": [
+      {
+        "title": "Lokasi Klinik Cabang Melong, Cijerah",
+        "background":"/images/lokasibgcontent_img_url.png",
+        "name": "Cabang Melong, Cijerah",
+        "address": "Jl. Bojong Raya No.101, Caringin, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40212",
+        "contact": "0821-1700-0624",
+        "image": "/images/mapsarijadi_img_url.png"
+      },
+      {
+        "imageGaleri": "/images/fotosarijadi_img_url.png"
+      },
+      {
+        "title": "Jadwal Praktik Dokter Bojongraya",
+        "schedule": [
+          {
+            "day": "Minggu",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Ina, drg"
+              },
+              {
+                "name": "Ilham, drg"
+              }
+            ]
+          },
+          {
+            "day": "Senin",
+            "time": [
+              {
+                "text": "08.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Ina, drg"
+              },
+              {
+                "name": "Nitia, drg"
+              }
+            ]
+          },
+          {
+            "day": "Selasa",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Nisya, drg"
+              },
+              {
+                "name": "Clara, drg"
+              },
+              {
+                "name": "Ilham, drg"
+              }
+            ]
+          },
+          {
+            "day": "Rabu",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Nitia, drg"
+              },
+              {
+                "name": "Clara, drg"
+              },
+              {
+                "name": "Nisyah, drg"
+              }
+            ]
+          },
+          {
+            "day": "Kamis",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              },
+              {
+                "text": "13.00 ~ 17.00"
+              },
+              {
+                "text": "17.00 ~ 21.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Nisyah, drg"
+              },
+              {
+                "name": "Clara, drg"
+              },
+              {
+                "name": "Febe, drg"
+              }
+            ]
+          },
+          {
+            "day": "Jumat",
+            "time": [
+              {
+                "text": "08.00 ~ 12.00"
+              }
+            ],
+            "dentist": [
+              {
+                "name": "Febe, drg"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titleTesti": "Apa Kata Mereka?",
+        "description": "Mereka mempercayakan perawatan Gigi-nya kepada Passion Dental Care",
+        "talent": "/images/Talent2.png",
+        "imageComent": "/images/comentsarijadi_img_url.png",
+        "backgroundTesti": "/images/Background.png"
+      }
+    ]
+  }
+]

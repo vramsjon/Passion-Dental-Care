@@ -5,10 +5,20 @@ import TentangPage from '/src/components/pages/TentangPage.vue'
 import TimDokterPage from '../components/pages/TimDokterPage.vue'
 import LayananPage from '../components/pages/LayananPage.vue'
 import VennerGigiPages from '../components/pages/VennerGigiPages.vue'
+import PromoPage from '../components/pages/PromoPage.vue'
+import ArtikelPages from '../components/pages/ArtikelPages.vue'
+import LokasiPages from '../components/pages/LokasiPages.vue'
+import DetailLokasiPage from '../components/pages/DetailLokasiPage.vue'
+import SurveyPage1 from '../components/pages/SurveyPage1.vue'
+import DetailLayanan from '../components/organisms/DetailLayanan.vue'
+import SurveyFormPage from '../components/pages/SurveyFormPage.vue'
+import SurveyPage2 from '../components/pages/SurveyPage2.vue'
+
+
 const routes = [
   {
     path: '/',
-    name: LandingPage,
+    name: 'LandingPage',
     component: LandingPage,
   },
   {
@@ -27,10 +37,48 @@ const routes = [
     component: LayananPage,
   },
   {
+    path: '/layanan/:slug',
+    name: DetailLayanan,
+    component: DetailLayanan,
+  },
+  {
     path: '/venner-gigi',
     name:VennerGigiPages,
     component: VennerGigiPages,
+  },
+  {
+    path:'/promo',
+    name: PromoPage,
+    component: PromoPage
+  },
+  {
+    path: '/artikel',
+    name: ArtikelPages,
+    component: ArtikelPages
+  },
+  {
+    path:'/lokasi-klinik',
+    name: LokasiPages,
+    component: LokasiPages
+  },
+  {
+    path:'/lokasi-klinik/:slug',
+    name: DetailLokasiPage,
+    component: DetailLokasiPage
+  },
+    {
+    path: '/survey',
+    name: SurveyPage1,
+    component: SurveyPage1,
+    meta: {hideHeaderFooter: true}
+  },
+  {
+    path: '/survey/:uuid',
+    name: 'SurveyPage1',
+    component: SurveyPage1,
+    meta: {hideHeaderFooter: true}
   }
+  
 ]
 
 const router = createRouter({
