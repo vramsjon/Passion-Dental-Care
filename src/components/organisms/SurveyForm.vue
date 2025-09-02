@@ -25,7 +25,7 @@
             </div>
           </div>
           <div>
-            <Image class="w-[40px] h-[40px]" src="/images/logo.png" />
+            <Image class="w-[40px] h-[40px]" src="/logo.png" />
           </div>
         </div>
 
@@ -204,7 +204,7 @@ const prevPage = () => {
 const postSurvey = async () => {
   try {
     const averageRating = await surveyService.submitSurveyAnswers(
-      uuid,
+      props.uuid,
       responseData.value,
       questionBank.value,
     )

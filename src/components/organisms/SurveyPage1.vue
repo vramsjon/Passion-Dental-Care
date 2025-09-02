@@ -5,7 +5,7 @@
     >
       <!-- Gambar Kiri (Hide di Mobile/Tablet) -->
       <div class="hidden lg:block">
-        <Image class="w-[480px] h-[912px] grayscale" src="/images/imagesurvey.png" />
+        <Image class="w-full h-full grayscale" src="/images/surveyimg.png" />
       </div>
 
       <!-- Konten Kanan -->
@@ -21,7 +21,7 @@
             ></div>
           </div>
           <div>
-            <Image class="w-[40px] h-[40px]" src="/images/logo.png" />
+            <Image class="w-[40px] h-[40px]" src="/logo.png" />
           </div>
         </div>
 
@@ -65,7 +65,9 @@
           <TeksGray>
             <ul class="list-disc space-y-2">
               <li>Untuk pertanyaan dengan skala bintang, berikut panduannya:</li>
-              <Image class="w-[265px] h-[44px]" src="/images/starrate.png" />
+              <div class="flex gap-2">
+                <Image class="w-auto" src="/images/starrate.svg" v-for="i in 5" :key="i"/>
+              </div>
               <ul class="list-disc ml-6 space-y-1">
                 <li>1 Bintang: Sangat Tidak Puas / Sangat Tidak Baik</li>
                 <li>2 Bintang: Tidak Puas / Kurang Baik</li>
@@ -92,7 +94,7 @@
           Selanjutnya
         </Button>
       </div>
-      <div v-else>
+      <div v-else class="w-full">
         <SurveyForm :uuid="uuid" @back="isSurveyStarted = false"  />
       </div>
     </div>
@@ -128,18 +130,20 @@ const route = useRoute()
 
 onMounted(async () => {
   try {
-    if (route.params.uuid) {
-      uuid.value = route.params.uuid
-    } else {
-      await Swal.fire({
-        icon: 'error',
-        title: 'UUID Tidak Ditemukan',
-        text: 'UUID untuk survei ini tidak ditemukan. Silakan coba lagi.',
-        confirmButtonText: 'OK',
-      })
-      router.push({ name: 'LandingPage' })
-      return
-    }
+    // if (route.params.uuid) {
+    //   uuid.value = route.params.uuid
+    // } else {
+    //   await Swal.fire({
+    //     icon: 'error',
+    //     title: 'UUID Tidak Ditemukan',
+    //     text: 'UUID untuk survei ini tidak ditemukan. Silakan coba lagi.',
+    //     confirmButtonText: 'OK',
+    //   })
+    //   router.push({ name: 'LandingPage' })
+    //   return
+    // }
+
+    uuid.value = "d96663c6-f501-4495-bcec-353cb55cc422"
 
     const data = await surveyService.getQuestionsByUserId(uuid.value)
 
