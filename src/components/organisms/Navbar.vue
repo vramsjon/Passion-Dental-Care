@@ -1,6 +1,6 @@
 <template>
   <div class="fixed top-0 left-0 z-50 w-full">
-    <div class="lg:flex items-center gap-10 lg:px-30 py-2">
+    <div class="lg:flex items-center gap-10 lg:px-30 py-2 bg-white">
       <NavLink1 />
       <Image class="w-[80px]" src="/logo.png" />
       <NavLink2 />
