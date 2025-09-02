@@ -13,7 +13,9 @@
     <router-view />
   </main>
   <footer v-if="!$route.meta.hideHeaderFooter">
-    <JanjiTemuSection></JanjiTemuSection>
+    <div class="flex md:hidden">
+      <JanjiTemuSection></JanjiTemuSection>
+    </div>
     <FooterSection></FooterSection>
   </footer>
 </template>
@@ -52,12 +54,15 @@ const toggleMenu = () => {
 <style>
 body::-webkit-scrollbar,
 #app::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Edge */
+  display: none;
+  /* Chrome, Safari, Edge */
 }
 
 body,
 #app {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
 }
 </style>
