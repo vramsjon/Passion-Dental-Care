@@ -4,6 +4,7 @@ import api from '../lib/axios'
 export default {
   async getQuestionsByUserId(uuid) {
     try {
+      console.log(uuid)
       const response = await api.get(`/api/client/questions/${uuid}`)
       return response.data.data // hanya bagian data, bukan seluruh response
     } catch (error) {
@@ -29,7 +30,7 @@ export default {
 
       console.log('📦 Payload yang dikirim:', payload)
 
-      const response = await api.post(`https://dev.skg.tbk.co.id/api/client/questions/d96663c6-f501-4495-bcec-353cb55cc422`, payload)
+      const response = await api.post(`${import.meta.env.VITE_API_URL_REMEDIS}api/client/questions/${uuid}`, payload)
       return response.data // kembalikan data full biar service bisa ambil rata-rata
     } catch (error) {
       console.error('Gagal mengirim jawaban survei:', error)

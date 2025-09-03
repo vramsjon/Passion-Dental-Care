@@ -10,7 +10,7 @@ export function useBlog() {
         error.value = null
 
         try {
-            const response = await fetch('https://dev.fitur.remedis.id/api/client/blog?type=BLOG', {
+            const response = await fetch(`${import.meta.env.VITE_API_URL_REMEDIS}api/client/blog?type=BLOG`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -117,7 +117,7 @@ export function useBlog() {
                 message: errorMessage,
                 status: statusCode,
                 originalError: err.message,
-                url: 'https://dev.fitur.remedis.id/api/client/blog'
+                url: '`${import.meta.env.VITE_API_URL_REMEDIS}api/client/blog'
             })
 
             return {

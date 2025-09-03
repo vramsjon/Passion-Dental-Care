@@ -66,7 +66,7 @@
             <ul class="list-disc space-y-2">
               <li>Untuk pertanyaan dengan skala bintang, berikut panduannya:</li>
               <div class="flex gap-2">
-                <Image class="w-auto" src="/images/starrate.svg" v-for="i in 5" :key="i"/>
+                <Image class="w-auto" src="/images/starrate.svg" v-for="i in 5" :key="i" />
               </div>
               <ul class="list-disc ml-6 space-y-1">
                 <li>1 Bintang: Sangat Tidak Puas / Sangat Tidak Baik</li>
@@ -95,7 +95,7 @@
         </Button>
       </div>
       <div v-else class="w-full">
-        <SurveyForm :uuid="uuid" @back="isSurveyStarted = false"  />
+        <SurveyForm :uuid="uuid" @back="isSurveyStarted = false" />
       </div>
     </div>
   </ContainerBlue>
@@ -143,7 +143,7 @@ onMounted(async () => {
     //   return
     // }
 
-    uuid.value = "d96663c6-f501-4495-bcec-353cb55cc422"
+    uuid.value = route.params.uuid
 
     const data = await surveyService.getQuestionsByUserId(uuid.value)
 
@@ -161,8 +161,16 @@ onMounted(async () => {
       }
     } else {
       console.warn('Data survey tidak ditemukan')
+     
     }
   } catch (error) {
+     await Swal.fire({
+        icon: 'error',
+        title: 'Survey Tidak Ditemukan/Sudah Diisi',
+        text: 'survei ini tidak ditemukan. Silakan coba lagi.',
+        confirmButtonText: 'OK',
+      })
+      router.push({ name: 'LandingPage' })
     console.error('Gagal ambil data:', error)
   }
 })
