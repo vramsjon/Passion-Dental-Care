@@ -3,8 +3,8 @@
     <!-- DESKTOP -->
     <div
       v-if="isLargeScreen"
-      class="w-full h-[700px] bg-[url('/images/tentangkamibg.png')] sm:left-20 bg-cover bg-center"
-    >
+      class="w-full h-[700px] bg-[url('./../../images/imagebg.png')] sm:left-20 bg-cover bg-center"
+>
       <div class="w-full flex lg:justify-end items-center pt-10">
         <LayananTeks></LayananTeks>
       </div>

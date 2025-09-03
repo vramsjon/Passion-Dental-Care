@@ -91,6 +91,7 @@ export function useBlogDetail() {
             }
 
         } catch (err) {
+            console.log('Error caught in fetchBlogDetail:', err)
             let errorMessage = 'Terjadi kesalahan saat mengambil detail artikel'
             let errorType = 'UNKNOWN_ERROR'
             let statusCode = null

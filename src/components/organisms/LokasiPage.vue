@@ -3,19 +3,19 @@
     <!-- Desktop / Large Screen -->
     <div v-if="isLargeScreen">
       <div
-        class="w-full h-[700px] bg-cover bg-center"
-        :style="`background-image: url(${lokasi.backgroundDekstop})`"
+        v-if="isLargeScreen"
+        class="w-full h-[350px] bg-[url('./../../images/Background.png')] sm:left-20 bg-cover bg-center"
       >
-        <div class="flex flex-col items-center justify-center pt-80">
+        <div class="flex flex-col items-center justify-center pt-30">
           <Teks1>{{ lokasi.text }}</Teks1>
           <Heading1>{{ lokasi.title }}</Heading1>
         </div>
       </div>
 
-      <div class="flex flex-col justify-center items-center mt-40 space-y-20">
+      <div class="flex flex-col justify-center items-center my-10 space-y-10">
         <div v-for="(item, index) in lokasi.content" :key="index">
           <div
-            class="w-[1066px] h-[464px] bg-cover bg-center"
+            class="w-[1066px] h-[464px] bg-cover bg-center rounded-2xl"
             :style="`background-image: url(${item.background})`"
           >
             <div class="p-4">
@@ -57,7 +57,7 @@
     <!-- Mobile / Small Screen -->
     <div v-else>
       <div
-        class="w-full h-[400px] bg-cover bg-center"
+        class="w-full h-[400px] bg-cover bg-center rounded-xl"
         :style="`background-image: url(${lokasi.backgroundMobile})`"
       >
         <div class="flex flex-col items-center justify-center h-full px-4 text-center">
@@ -73,14 +73,15 @@
           class="bg-white rounded-xl shadow-lg overflow-hidden"
         >
           <div
-            class="w-screen h-[580px] bg-cover bg-center"
+            class="w-screen h-[580px] bg-cover bg-center rounded-xl"
             :style="`background-image: url(${item.background})`"
           >
-            <div class=" pl-[6px] py-[10px] ">
-              
+            <div class="pl-[6px] py-[10px]">
               <div>
                 <div class="flex gap-x-2">
-                  <div class="bg-[#092A62] text-white p-4 space-y-2 rounded-2xl w-[170px] h-[260px]">
+                  <div
+                    class="bg-[#092A62] text-white p-4 space-y-2 rounded-2xl w-[170px] h-[260px]"
+                  >
                     <Heading1>{{ item.title }}</Heading1>
                     <Paragraph2>{{ item.address }}</Paragraph2>
                     <RouterLink :to="`/lokasi-klinik/${item.slug}`">

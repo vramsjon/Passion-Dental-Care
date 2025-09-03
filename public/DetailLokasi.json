@@ -4,19 +4,20 @@
     "slug": "cabang-gegerkalong",
     "text": "Lokasi Klinik",
     "title": "Passion Dental Care Cabang Gegerkalong",
-    "backgroundDekstop": "/images/promobg_img_url.png",
+    "backgroundDekstop": "/images/hero.png",
     "BackgroundMobile": "/images/promobgdekstop_img_url.png",
     "content": [
       {
         "title": "Lokasi Klinik Cabang Gegerkalong",
-        "background": "/images/lokasibgcontent_img_url.png",
+        "background": "/images/Background.png",
         "name": "Cabang Gegerkalong",
         "address": "Jl. Sukahaji No.12, Sukarasa, Kec. Sukasari, Kota Bandung, Jawa Barat 40152",
         "contact": "0812-9009-9562",
+        "nowa": "6281213807090",
         "image": "/images/mapsukahaji_img_url.png"
       },
       {
-        "imageGaleri": "/images/fotosukahaji_img_url.png"
+        "imageGaleri": "/images/galerilokasi0_img_url.png"
       },
       {
         "title": "Jadwal Praktik Dokter Sukahaji",
@@ -181,19 +182,22 @@
     "slug": "cabang-sarijadi",
     "text": "Lokasi Klinik",
     "title": "Passion Dental Care Cabang Sarijadi",
-    "backgroundDekstop": "/images/promobg_img_url.png",
+    "backgroundDekstop": "/images/hero.png",
     "BackgroundMobile": "/images/promobgdekstop_img_url.png",
     "content": [
       {
         "title": "Lokasi Klinik Cabang Sarijadi",
-        "background": "/images/lokasibgcontent_img_url.png",
+        "background": "/images/Background.png",
         "name": "Cabang Sarijadi",
         "address": "Jl Perintis No. 7, Sarijadi, Kec. Sukasari, Kota Bandung 0812-1380-7090",
         "contact": "0812-1380-7090",
-        "image": "/images/mapsarijadi_img_url.png"
+        "nowa": "6281213807090",
+        "image": "/images/mapsarijadi_img_url.png",
+        "latlon": "-6.8816176,107.5754",
+        "gmaps": "https://www.google.com/maps/place/Klinik+Gigi+Bandung:+Passion+Dental+Care+-+PDC+Sarijadi/data=!4m7!3m6!1s0x2e68e7f2c7319fc7:0xcaeb34bf8bfa83f!8m2!3d-6.8816176!4d107.5754793!16s%2Fg%2F11m7bm7x38!19sChIJx58xx_LnaC4RP6i_-Euzrgw?authuser=0&hl=id&rclk=1"
       },
       {
-        "imageGaleri": "/images/fotosarijadi_img_url.png"
+        "imageGaleri": "/images/galerilokasi1_img_url.png"
       },
       {
         "title": "Jadwal Praktik Dokter Sarijadi",
@@ -358,19 +362,22 @@
     "slug": "cabang-parongpong",
     "text": "Lokasi Klinik",
     "title": "Passion Dental Care Cabang Parongpong",
-    "backgroundDekstop": "/images/promobg_img_url.png",
+    "backgroundDekstop": "/images/hero.png",
     "BackgroundMobile": "/images/promobgdekstop_img_url.png",
     "content": [
       {
         "title": "Lokasi Klinik Cabang Lembang",
-        "background": "/images/lokasibgcontent_img_url.png",
+        "background": "/images/Background.png",
         "name": "Cabang Lembang",
         "address": "Komplek Villa Istana Bunga, Jl. Kolonel Masturi No. 6, Kec. Parongpong, Kab. Bandung Barat, Jawa Barat 40559",
         "contact": "0896-4647-2860",
-        "image": "/images/mapparongpong_img_url.png"
+        "nowa": "6289646472860",
+        "image": "/images/mapparongpong_img_url.png",
+        "latlon": "-6.8014131,107.5805426",
+        "gmaps": "https://www.google.com/maps/place/Klinik+Gigi+Bandung:+Passion+Dental+Care+-+PDC+Parongpong+Lembang/@-6.8588351,107.5078454,13z/data=!4m10!1m2!2m1!1spassion+dental+care!3m6!1s0x2e68e1e7c5a04105:0x7add5166504cf202!8m2!3d-6.8014131!4d107.5805426!15sChNwYXNzaW9uIGRlbnRhbCBjYXJlkgENZGVudGFsX2NsaW5pY6oBSwoNL2cvMTFtN2JtN3gzOBABMh8QASIb5u9NY7T4jLwtsc1y4HCNkrhIHKp95gloSNKIMhcQAiITcGFzc2lvbiBkZW50YWwgY2FyZeABAA!16s%2Fg%2F11g1npydkl?entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
       },
       {
-        "imageGaleri": "/images/fotoparongpong_img_url.png"
+        "imageGaleri": "/images/galerilokasi2_img_url.png"
       },
       {
         "title": "Jadwal Praktik Dokter Parongpong",
@@ -499,19 +506,22 @@
     "slug": "cabang-ciwastra",
     "text": "Lokasi Klinik",
     "title": "Passion Dental Care Cabang Ciwastra",
-    "backgroundDekstop": "/images/promobg_img_url.png",
+    "backgroundDekstop": "/images/hero.png",
     "BackgroundMobile": "/images/promobgdekstop_img_url.png",
     "content": [
       {
         "title": "Lokasi Klinik Cabang Ciwastra",
-        "background":"/images/lokasibgcontent_img_url.png",
+        "background": "/images/Background.png",
         "name": "Cabang Buah batu - Ciwastra",
         "address": "Jl. Ciwastra 99, Margasari, Kec. Buahbatu, Kota Bandung, Jawa Barat 40287,",
         "contact": "0821-1700-0614",
-        "image": "/images/mapsarijadi_img_url.png"
+        "nowa": "6282117000614",
+        "image": "/images/mapsarijadi_img_url.png",
+        "latlon": "-6.9550638,107.6512914",
+        "gmaps": "https://www.google.com/maps/place/Klinik+Gigi+Bandung:+Passion+Dental+Care+-+PDC+Buah+Batu+Ciwastra/@-6.9550638,107.6512914,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e92a203e811f:0x31d177e796a0a7d2!8m2!3d-6.9550638!4d107.6512914!16s%2Fg%2F11sw384wzh?authuser=0&hl=id&entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
       },
       {
-        "imageGaleri": "/images/fotosarijadi_img_url.png"
+        "imageGaleri": "/images/galerilokasi3_img_url.png"
       },
       {
         "title": "Jadwal Praktik Dokter Ciwastra",
@@ -676,19 +686,22 @@
     "slug": "cabang-cijerah",
     "text": "Lokasi Klinik",
     "title": "Passion Dental Care Cabang Cijerah",
-    "backgroundDekstop": "/images/promobg_img_url.png",
+    "backgroundDekstop": "/images/hero.png",
     "BackgroundMobile": "/images/promobgdekstop_img_url.png",
     "content": [
       {
         "title": "Lokasi Klinik Cabang Melong, Cijerah",
-        "background":"/images/lokasibgcontent_img_url.png",
+        "background": "/images/Background.png",
         "name": "Cabang Melong, Cijerah",
         "address": "Jl. Bojong Raya No.101, Caringin, Kec. Bandung Kulon, Kota Bandung, Jawa Barat 40212",
         "contact": "0821-1700-0624",
-        "image": "/images/mapsarijadi_img_url.png"
+        "nowa": "6282117000624",
+        "image": "/images/mapsarijadi_img_url.png",
+        "latlon": "-6.9148644,107.5732081",
+        "gmaps": "https://www.google.com/maps/place/Passion+Dental+Care+-+Bojong+Raya/@-6.9270582,107.5665053,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e5551ddda5ad:0xd54c0d703e5433b8!8m2!3d-6.9270582!4d107.5665053!16s%2Fg%2F11sw6y94ht?authuser=0&hl=id&entry=ttu&g_ep=EgoyMDI1MDgyNS4wIKXMDSoASAFQAw%3D%3D"
       },
       {
-        "imageGaleri": "/images/fotosarijadi_img_url.png"
+        "imageGaleri": "/images/galerilokasi4_img_url.png"
       },
       {
         "title": "Jadwal Praktik Dokter Bojongraya",
