@@ -84,6 +84,7 @@ import { useBlog } from '../../composables/useBlog.js'
 import { formatDate } from '../../utils/dateUtils.js'
 
 const { articles, loading, error, fetchBlogs, retryFetch } = useBlog()
+const falseResponses = [null, '']
 
 onMounted(() => {
     fetchBlogs()
@@ -93,7 +94,13 @@ const getAuthorName = (article) => {
     return article.user_created || article.user_updated || 'Admin'
 }
 
-const getArticleImage = (article) => {
+
+const getArticleImage = (article) =>  {
+
+    if (!falseResponses.includes(article.file_path)) {
+        return article.file_path
+    }
+
     if (article.html) {
         const imgMatch = article.html.match(/<img[^>]+src="([^"]+)"/)
         if (imgMatch && imgMatch[1]) {

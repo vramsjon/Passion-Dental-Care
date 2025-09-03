@@ -84,6 +84,7 @@ import CardRekomendasiArticle from '../../components/UI/CardRekomendasiArticle.v
 
 const { article, loading, error, fetchBlogDetail, retryFetch } = useBlogDetail()
 const { articles, fetchBlogs } = useBlog()
+const falseResponses = [null, ''];
 
 const route = useRoute()
 
@@ -125,6 +126,10 @@ const handleRetry = async () => {
 }
 
 const getArticleImage = (article) => {
+    if (!falseResponses.includes(article.file_path)) {
+        return article.file_path
+    }
+
     if (article?.html) {
         const imgMatch = article.html.match(/<img[^>]+src=\"([^\"]+)\"/)
         if (imgMatch && imgMatch[1]) {

@@ -1,7 +1,7 @@
 <template>
   <div v-if="detailLokasi">
     <div
-      class="flex flex-col justify-center items-center gap-y-[120px]"
+      class="flex flex-col justify-center items-center gap-y-[50px]"
       v-for="(item, index) in detailLokasi.content"
       :key="index"
     >
@@ -11,21 +11,38 @@
       <!-- Tampil hanya untuk item pertama -->
       <div
         v-if="index === 0"
-        class="w-[1066px] h-[398px] bg-contain bg-center bg-no-repeat rounded-4xl relative flex gap-x-12"
-        :style="`background-image: url(${item.background})`"
+        class="w-[1066px] h-[464px] bg-cover bg-center rounded-2xl flex justify-center"
+        style="background-image: url('/images/Background.png')"
       >
-        <div class="bg-[#092A62]/90 w-[500px] h-[416px] p-12 space-y-8 rounded-4xl">
+        <div class="bg-[#092A62]/90 w-[500px] p-12 space-y-8 rounded-4xl my-4">
           <Heading1>{{ item.name }}</Heading1>
           <Paragraph2>{{ item.address }}</Paragraph2>
           <div class="bg-[#092A62] rounded-2xl px-4 py-2">
             <p class="text-white font-medium">Kontak Kami:</p>
             <Heading2>{{ item.contact }}</Heading2>
           </div>
-        </div>
-        <div class="space-y-10">
-          <Image class="w-[417px] h-[308px] mt-4" :src="item.image" />
           <div class="bg-[#092A62]/80 rounded-4xl">
-            <p class="text-white font-bold text-xl text-center py-4">Hubungi Kami</p>
+            <a
+              :href="`https://api.whatsapp.com/send/?phone=${item.nowa}&text=NIK%20:%0ANama%20lengkap%20:%0AJenis%20kelamin%20:%0ATempat%20%26%20tgl%20lahir%20:%0AAlamat%20:%0APekerjaan%20:%0ANo.%20HP%20:%0AEmail%20:%0AAlergi%20obat%20:%0AMaag%20:%0ARiwayat%20penyakit%20:%0AKeluhan%20:&type=phone_number&app_absent=0`"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p class="text-white font-bold text-xl text-center py-4">Hubungi Kami</p>
+            </a>
+          </div>
+        </div>
+        <div class="p-12">
+          <div class="w-[417px] h-[308px]">
+            <iframe
+              class="w-full h-full rounded-2xl shadow"
+              :src="`https://www.google.com/maps?q=${item.latlon}&hl=es;z=14&output=embed`"
+              allowfullscreen
+            ></iframe>
+            <div class="bg-[#092A62]/80 rounded-4xl mt-4">
+              <a :href="item?.gmaps" target="_blank" rel="noopener noreferrer">
+                <p class="text-white font-bold text-xl text-center py-4">Lokasi</p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -35,7 +52,7 @@
         v-if="index === 1"
         class="bg-[#092A62]/90 w-full h-auto p-24 flex justify-center items-center"
       >
-        <Image class="w-[1099px] h-[436px]" :src="item.imageGaleri" />
+        <Image class="w-full" :src="item.imageGaleri" />
       </div>
 
       <!-- Jadwal dokter -->
